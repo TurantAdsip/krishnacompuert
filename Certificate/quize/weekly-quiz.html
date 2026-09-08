@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daily Quiz | KrishnaPrep</title>
+
+    <style>
+        /* =========================================
+   KRISHNAPREP QUIZ - PROFESSIONAL CSS
+========================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+            min-height: 100vh;
+        }
+
+        /* =========================================
+   MAIN QUIZ CONTAINER
+========================================= */
+
+        .quiz-container {
+            width: 100%;
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 32px;
+
+            background: #ffffff;
+            border-radius: 20px;
+
+            border: 1px solid #e5e7eb;
+
+            box-shadow:
+                0 10px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        /* =========================================
+   QUIZ TITLE
+========================================= */
+
+        #quizTitle {
+            text-align: center;
+
+            font-size: 32px;
+            font-weight: 800;
+
+            color: #111827;
+
+            margin-bottom: 10px;
+        }
+
+        #quizTitle::after {
+            content: "";
+            display: block;
+
+            width: 55px;
+            height: 4px;
+
+            margin: 12px auto 0;
+
+            background: linear-gradient(90deg,
+                    #2563eb,
+                    #4f46e5);
+
+            border-radius: 10px;
+        }
+
+        /* =========================================
+   QUIZ INFORMATION
+========================================= */
+
+        #quizInfo {
+            text-align: center;
+
+            margin-bottom: 30px;
+
+            padding: 13px 16px;
+
+            background: #f8fafc;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 10px;
+
+            color: #64748b;
+
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* =========================================
+   STUDENT FORM
+========================================= */
+
+        #quizContainer {
+            width: 100%;
+        }
+
+        #quizContainer h2 {
+            font-size: 22px;
+            color: #111827;
+
+            margin-bottom: 8px;
+        }
+
+        #quizContainer p {
+            color: #6b7280;
+            line-height: 1.6;
+        }
+
+        /* =========================================
+   FORM GROUP
+========================================= */
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+
+            margin-bottom: 7px;
+
+            font-size: 13px;
+            font-weight: 700;
+
+            color: #374151;
+        }
+
+        .form-group input {
+            width: 100%;
+            height: 48px;
+
+            padding: 0 14px;
+
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+
+            background: #ffffff;
+
+            color: #111827;
+
+            font-size: 14px;
+
+            outline: none;
+
+            transition: all 0.2s ease;
+        }
+
+        .form-group input:hover {
+            border-color: #9ca3af;
+        }
+
+        .form-group input:focus {
+            border-color: #2563eb;
+
+            box-shadow:
+                0 0 0 4px rgba(37, 99, 235, 0.10);
+        }
+
+        /* =========================================
+   QUESTION
+========================================= */
+
+        .question {
+            margin-bottom: 25px;
+
+            padding: 22px;
+
+            background: #ffffff;
+
+            border: 1px solid #e5e7eb;
+
+            border-radius: 15px;
+
+            box-shadow:
+                0 4px 12px rgba(15, 23, 42, 0.04);
+        }
+
+        .question h3 {
+            margin-bottom: 18px;
+
+            font-size: 18px;
+            line-height: 1.6;
+
+            color: #111827;
+        }
+
+        /* =========================================
+   QUESTION NUMBER
+========================================= */
+
+        .question h3:first-letter {
+            color: #2563eb;
+        }
+
+        /* =========================================
+   OPTIONS
+========================================= */
+
+        .option {
+            display: flex;
+            align-items: center;
+
+            width: 100%;
+
+            padding: 14px 16px;
+
+            margin: 10px 0;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 11px;
+
+            background: #ffffff;
+
+            color: #374151;
+
+            cursor: pointer;
+
+            font-size: 14px;
+
+            line-height: 1.5;
+
+            transition:
+                background 0.2s ease,
+                border-color 0.2s ease,
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+        }
+
+        .option:hover {
+            background: #f8fbff;
+
+            border-color: #93c5fd;
+
+            transform: translateY(-1px);
+
+            box-shadow:
+                0 4px 10px rgba(37, 99, 235, 0.06);
+        }
+
+        .option input[type="radio"] {
+            width: 18px;
+            height: 18px;
+
+            margin-right: 12px;
+
+            accent-color: #2563eb;
+
+            cursor: pointer;
+
+            flex-shrink: 0;
+        }
+
+        /* Selected Option */
+
+        .option.selected {
+            background: #eff6ff;
+
+            border-color: #2563eb;
+
+            color: #1d4ed8;
+
+            box-shadow:
+                0 4px 12px rgba(37, 99, 235, 0.10);
+        }
+
+        /* =========================================
+   PROGRESS BAR
+========================================= */
+
+        .progress-area {
+            margin-bottom: 25px;
+        }
+
+        .progress-info {
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+
+            margin-bottom: 8px;
+
+            font-size: 12px;
+
+            font-weight: 700;
+
+            color: #64748b;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 7px;
+
+            background: #e5e7eb;
+
+            border-radius: 50px;
+
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+
+            background: linear-gradient(90deg,
+                    #2563eb,
+                    #4f46e5);
+
+            border-radius: 50px;
+
+            transition: width 0.3s ease;
+        }
+
+        /* =========================================
+   BUTTONS
+========================================= */
+
+        button,
+        .submit-btn {
+            width: 100%;
+
+            min-height: 48px;
+
+            padding: 0 20px;
+
+            border: none;
+
+            border-radius: 10px;
+
+            background: linear-gradient(135deg,
+                    #2563eb,
+                    #4338ca);
+
+            color: #ffffff;
+
+            font-size: 15px;
+
+            font-weight: 700;
+
+            cursor: pointer;
+
+            transition: all 0.2s ease;
+
+            box-shadow:
+                0 7px 18px rgba(37, 99, 235, 0.20);
+        }
+
+        button:hover,
+        .submit-btn:hover {
+            transform: translateY(-1px);
+
+            box-shadow:
+                0 10px 22px rgba(37, 99, 235, 0.28);
+        }
+
+        button:active,
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        /* =========================================
+   NEXT / PREVIOUS BUTTONS
+========================================= */
+
+        .navigation-buttons {
+            display: flex;
+
+            gap: 12px;
+
+            margin-top: 22px;
+        }
+
+        .navigation-buttons button {
+            flex: 1;
+        }
+
+        .navigation-buttons button:first-child {
+            background: #f1f5f9;
+
+            color: #374151;
+
+            box-shadow: none;
+        }
+
+        .navigation-buttons button:first-child:hover {
+            background: #e2e8f0;
+        }
+
+        /* =========================================
+   START QUIZ BUTTON
+========================================= */
+
+        .start-btn {
+            margin-top: 10px;
+        }
+
+        /* =========================================
+   ERROR MESSAGE
+========================================= */
+
+        .error-message {
+            padding: 14px 16px;
+
+            margin: 15px 0;
+
+            border-radius: 10px;
+
+            background: #fef2f2;
+
+            border: 1px solid #fecaca;
+
+            color: #b91c1c;
+
+            font-size: 13px;
+
+            line-height: 1.5;
+        }
+
+        /* =========================================
+   SUCCESS MESSAGE
+========================================= */
+
+        .success-message {
+            padding: 14px 16px;
+
+            margin: 15px 0;
+
+            border-radius: 10px;
+
+            background: #f0fdf4;
+
+            border: 1px solid #bbf7d0;
+
+            color: #15803d;
+
+            font-size: 13px;
+
+            line-height: 1.5;
+        }
+
+        /* =========================================
+   LOADING
+========================================= */
+
+        .loading {
+            text-align: center;
+
+            padding: 45px 20px;
+
+            color: #64748b;
+
+            font-size: 15px;
+        }
+
+        .loading::before {
+            content: "";
+
+            display: block;
+
+            width: 34px;
+            height: 34px;
+
+            margin: 0 auto 15px;
+
+            border: 4px solid #e5e7eb;
+
+            border-top-color: #2563eb;
+
+            border-radius: 50%;
+
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+        @media (max-width: 700px) {
+
+            body {
+                padding: 0;
+            }
+
+            .quiz-container {
+                max-width: 100%;
+
+                margin: 15px auto;
+
+                padding: 20px 15px;
+
+                border-radius: 15px;
+            }
+
+            #quizTitle {
+                font-size: 25px;
+            }
+
+            #quizInfo {
+                font-size: 13px;
+
+                margin-bottom: 22px;
+            }
+
+            .question {
+                padding: 17px;
+
+                border-radius: 12px;
+            }
+
+            .question h3 {
+                font-size: 16px;
+            }
+
+            .option {
+                padding: 13px;
+
+                font-size: 13px;
+            }
+
+            .navigation-buttons {
+                flex-direction: column;
+            }
+
+            .navigation-buttons button {
+                width: 100%;
+            }
+        }
+
+        /* =========================================
+   SMALL MOBILE
+========================================= */
+
+        @media (max-width: 400px) {
+
+            .quiz-container {
+                margin: 8px;
+
+                padding: 16px 11px;
+
+                border-radius: 13px;
+            }
+
+            #quizTitle {
+                font-size: 22px;
+            }
+
+            .question {
+                padding: 14px;
+            }
+
+            .option {
+                padding: 12px;
+
+                font-size: 13px;
+            }
+
+            .form-group input {
+                height: 46px;
+            }
+
+            button,
+            .submit-btn {
+                min-height: 46px;
+
+                font-size: 14px;
+            }
+        }
+
+        /* =========================================
+   PRINT
+========================================= */
+
+        @media print {
+
+            body {
+                background: #ffffff;
+            }
+
+            .quiz-container {
+                margin: 0;
+
+                max-width: 100%;
+
+                border: none;
+
+                box-shadow: none;
+            }
+
+            button,
+            .submit-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <h1 id="quizTitle">Loading Quiz...</h1>
+
+        <div id="quizInfo"></div>
+
+        <div id="quizContainer"></div>
+
+        <button class="submit-btn" onclick="submitQuiz()">
+            Submit Quiz
+        </button>
+
+    </div>
+
+    <script>
+        const QUIZ_TYPE = "weekly";
+    </script>
+    <script src="../js/quiz.js"></script>
+
+</body>
+
+</html>

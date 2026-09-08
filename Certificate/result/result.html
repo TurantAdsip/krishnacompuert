@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Result | KrishnaPrep</title>
+
+    <style>
+        /* =====================================================
+           GLOBAL
+        ===================================================== */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #172033;
+            min-height: 100vh;
+        }
+
+
+        /* =====================================================
+           HEADER
+        ===================================================== */
+
+        .header {
+            width: 100%;
+            height: 70px;
+
+            background: #ffffff;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 0 35px;
+
+            border-bottom: 1px solid #e5eaf2;
+
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+        }
+
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: #2563eb;
+        }
+
+        .logo span {
+            color: #111827;
+        }
+
+
+        .home-link {
+            text-decoration: none;
+
+            padding: 10px 20px;
+
+            border: 1px solid #d7deea;
+
+            border-radius: 8px;
+
+            color: #2563eb;
+
+            background: #ffffff;
+
+            font-size: 14px;
+            font-weight: 600;
+
+            transition: 0.25s ease;
+        }
+
+
+        .home-link:hover {
+            background: #2563eb;
+            color: #ffffff;
+            border-color: #2563eb;
+        }
+
+
+        /* =====================================================
+           MAIN WRAPPER
+        ===================================================== */
+
+        .result-wrapper {
+            width: 100%;
+            max-width: 950px;
+
+            margin: 45px auto;
+
+            padding: 0 20px;
+        }
+
+
+        /* =====================================================
+           RESULT CARD
+        ===================================================== */
+
+        .result-card {
+            width: 100%;
+
+            background: #ffffff;
+
+            border-radius: 20px;
+
+            overflow: hidden;
+
+            border: 1px solid #e6ebf2;
+
+            box-shadow:
+                0 12px 40px rgba(15, 23, 42, 0.10);
+        }
+
+
+        /* =====================================================
+           TOP SECTION
+        ===================================================== */
+
+        .result-top {
+            text-align: center;
+
+            padding: 40px 25px 35px;
+
+            background:
+                linear-gradient(135deg,
+                    #eff6ff,
+                    #ffffff);
+
+            border-bottom: 1px solid #edf1f7;
+        }
+
+
+        .result-top h1 {
+            font-size: 32px;
+
+            color: #111827;
+
+            margin-bottom: 8px;
+        }
+
+
+        .student-name {
+            font-size: 20px;
+
+            font-weight: 700;
+
+            color: #475569;
+
+            margin-top: 8px;
+        }
+
+
+        /* =====================================================
+           SCORE CIRCLE
+        ===================================================== */
+
+        .score-circle {
+            width: 160px;
+            height: 160px;
+
+            margin: 30px auto 20px;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #4338ca);
+
+            color: #ffffff;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            box-shadow:
+                0 12px 30px rgba(37, 99, 235, 0.25);
+        }
+
+
+        .score-number {
+            font-size: 38px;
+
+            font-weight: 800;
+
+            line-height: 1;
+        }
+
+
+        .score-label {
+            font-size: 13px;
+
+            margin-top: 8px;
+
+            opacity: 0.9;
+        }
+
+
+        /* =====================================================
+           PERCENTAGE
+        ===================================================== */
+
+        .percentage {
+            font-size: 30px;
+
+            font-weight: 800;
+
+            color: #172033;
+
+            margin-top: 5px;
+        }
+
+
+        /* =====================================================
+           STATUS
+        ===================================================== */
+
+        .status {
+            display: inline-flex;
+
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 14px;
+
+            min-width: 95px;
+
+            padding: 9px 22px;
+
+            border-radius: 50px;
+
+            font-size: 13px;
+
+            font-weight: 800;
+        }
+
+
+        .status.pass {
+            background: #dcfce7;
+
+            color: #15803d;
+
+            border: 1px solid #bbf7d0;
+        }
+
+
+        .status.fail {
+            background: #fee2e2;
+
+            color: #dc2626;
+
+            border: 1px solid #fecaca;
+        }
+
+
+        /* =====================================================
+           STATS
+        ===================================================== */
+
+        .stats {
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 18px;
+
+            padding: 28px 30px;
+
+            border-bottom: 1px solid #edf1f7;
+        }
+
+
+        .stat-box {
+            background: #f8fafc;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 14px;
+
+            padding: 22px 15px;
+
+            text-align: center;
+
+            transition: 0.25s ease;
+        }
+
+
+        .stat-box:hover {
+            transform: translateY(-3px);
+
+            box-shadow:
+                0 8px 20px rgba(15, 23, 42, 0.08);
+        }
+
+
+        .stat-value {
+            font-size: 30px;
+
+            font-weight: 800;
+
+            color: #111827;
+        }
+
+
+        .stat-label {
+            margin-top: 7px;
+
+            font-size: 12px;
+
+            color: #64748b;
+
+            font-weight: 700;
+
+            text-transform: uppercase;
+
+            letter-spacing: 0.5px;
+        }
+
+
+        /* =====================================================
+           DETAILS
+        ===================================================== */
+
+        .details {
+            padding: 28px 30px 10px;
+        }
+
+
+        .details-title {
+            font-size: 20px;
+
+            font-weight: 800;
+
+            color: #111827;
+
+            margin-bottom: 12px;
+        }
+
+
+        .detail-row {
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            min-height: 50px;
+
+            padding: 12px 0;
+
+            border-bottom: 1px solid #edf1f7;
+
+            gap: 20px;
+        }
+
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+
+        .detail-label {
+            font-size: 14px;
+
+            color: #64748b;
+
+            font-weight: 500;
+        }
+
+
+        .detail-value {
+            font-size: 14px;
+
+            color: #111827;
+
+            font-weight: 700;
+
+            text-align: right;
+
+            word-break: break-word;
+        }
+
+
+        /* =====================================================
+           ACTION BUTTONS
+        ===================================================== */
+
+        .actions {
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            gap: 15px;
+
+            padding: 25px 30px 32px;
+        }
+
+
+        .btn {
+            display: inline-flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            min-width: 165px;
+
+            padding: 13px 24px;
+
+            border-radius: 9px;
+
+            font-size: 14px;
+
+            font-weight: 700;
+
+            text-decoration: none;
+
+            cursor: pointer;
+
+            transition: 0.25s ease;
+        }
+
+
+        .btn-primary {
+            background: #2563eb;
+
+            color: #ffffff;
+
+            border: 1px solid #2563eb;
+        }
+
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+
+            border-color: #1d4ed8;
+
+            transform: translateY(-2px);
+        }
+
+
+        .btn-secondary {
+            background: #ffffff;
+
+            color: #2563eb;
+
+            border: 1px solid #cbd5e1;
+        }
+
+
+        .btn-secondary:hover {
+            background: #f8fafc;
+
+            border-color: #2563eb;
+
+            transform: translateY(-2px);
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ===================================================== */
+
+        .footer {
+            text-align: center;
+
+            padding: 20px;
+
+            color: #64748b;
+
+            font-size: 13px;
+        }
+
+
+        /* =====================================================
+           RESULT NOT FOUND
+        ===================================================== */
+
+        .result-not-found {
+            text-align: center;
+
+            padding: 60px 25px;
+        }
+
+
+        .result-not-found h2 {
+            color: #dc2626;
+
+            font-size: 26px;
+
+            margin-bottom: 12px;
+        }
+
+
+        .result-not-found p {
+            color: #64748b;
+
+            margin-bottom: 22px;
+        }
+
+        /* =====================================================
+   TABLET
+===================================================== */
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+
+            .header {
+                height: 68px;
+                padding: 0 30px;
+            }
+
+            .logo {
+                font-size: 24px;
+            }
+
+            .home-link {
+                padding: 9px 18px;
+                font-size: 14px;
+            }
+
+            .result-wrapper {
+                width: 92%;
+                margin: 30px auto;
+                padding: 0 15px;
+            }
+
+            .result-top {
+                padding: 35px 30px;
+            }
+
+            .result-top h1 {
+                font-size: 31px;
+            }
+
+            .student-name {
+                font-size: 21px;
+            }
+
+            .score-circle {
+                width: 155px;
+                height: 155px;
+                margin-top: 28px;
+            }
+
+            .score-number {
+                font-size: 38px;
+            }
+
+            .percentage {
+                font-size: 30px;
+            }
+
+            .stats {
+                gap: 15px;
+                padding: 25px 20px;
+            }
+
+            .stat-box {
+                padding: 20px 12px;
+            }
+
+            .stat-value {
+                font-size: 28px;
+            }
+
+            .stat-label {
+                font-size: 11px;
+            }
+
+            .details {
+                padding: 25px 28px 8px;
+            }
+
+            .detail-row {
+                align-items: center;
+                gap: 20px;
+            }
+
+            .detail-value {
+                max-width: 65%;
+            }
+
+            .actions {
+                padding: 22px 28px 30px;
+                gap: 15px;
+            }
+
+            .btn {
+                min-width: 180px;
+            }
+        }
+
+        /* =====================================================
+           MOBILE
+        ===================================================== */
+
+        @media (max-width: 768px) {
+
+            .header {
+                height: 64px;
+
+                padding: 0 18px;
+            }
+
+
+            .logo {
+                font-size: 21px;
+            }
+
+
+            .home-link {
+                padding: 8px 15px;
+
+                font-size: 13px;
+            }
+
+
+            .result-wrapper {
+                margin: 25px auto;
+
+                padding: 0 12px;
+            }
+
+
+            .result-top {
+                padding: 30px 18px;
+            }
+
+
+            .result-top h1 {
+                font-size: 27px;
+            }
+
+
+            .student-name {
+                font-size: 18px;
+            }
+
+
+            .score-circle {
+                width: 140px;
+
+                height: 140px;
+
+                margin-top: 25px;
+            }
+
+
+            .score-number {
+                font-size: 34px;
+            }
+
+
+            .percentage {
+                font-size: 27px;
+            }
+
+
+            .stats {
+                gap: 10px;
+
+                padding: 20px 15px;
+            }
+
+
+            .stat-box {
+                padding: 17px 8px;
+            }
+
+
+            .stat-value {
+                font-size: 25px;
+            }
+
+
+            .stat-label {
+                font-size: 10px;
+            }
+
+
+            .details {
+                padding: 22px 18px 5px;
+            }
+
+
+            .detail-row {
+                align-items: flex-start;
+
+                gap: 15px;
+            }
+
+
+            .detail-value {
+                max-width: 60%;
+            }
+
+
+            .actions {
+                flex-direction: column;
+
+                padding: 20px 18px 28px;
+            }
+
+
+            .btn {
+                width: 100%;
+            }
+
+        }
+
+
+        /* =====================================================
+           SMALL MOBILE
+        ===================================================== */
+
+        @media (max-width: 480px) {
+
+            .result-top h1 {
+                font-size: 24px;
+            }
+
+
+            .student-name {
+                font-size: 17px;
+            }
+
+
+            .score-circle {
+                width: 125px;
+
+                height: 125px;
+            }
+
+
+            .score-number {
+                font-size: 30px;
+            }
+
+
+            .percentage {
+                font-size: 25px;
+            }
+
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
+
+
+            .stat-box {
+                padding: 15px;
+            }
+
+
+            .detail-row {
+                flex-direction: column;
+
+                align-items: flex-start;
+
+                gap: 5px;
+            }
+
+
+            .detail-value {
+                max-width: 100%;
+
+                text-align: left;
+            }
+
+        }
+
+
+        /* =====================================================
+           PRINT
+        ===================================================== */
+
+        @media print {
+
+            body {
+                background: #ffffff;
+            }
+
+
+            .header {
+                box-shadow: none;
+
+                border-bottom: 1px solid #ddd;
+            }
+
+
+            .home-link,
+            .actions {
+                display: none !important;
+            }
+
+
+            .result-wrapper {
+                max-width: 100%;
+
+                margin: 20px auto;
+
+                padding: 0;
+            }
+
+
+            .result-card {
+                border: 1px solid #ddd;
+
+                box-shadow: none;
+
+                border-radius: 0;
+            }
+
+
+            .result-top {
+                background: #ffffff;
+            }
+
+
+            .footer {
+                border-top: 1px solid #ddd;
+            }
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ===================================================== -->
+
+    <header class="header">
+
+        <div class="logo">
+            Krishna<span>Prep</span>
+        </div>
+
+        <a href="../index.html" class="home-link">
+            Home
+        </a>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         RESULT
+    ===================================================== -->
+
+    <main class="result-wrapper">
+
+        <div class="result-card">
+
+
+            <!-- =================================================
+                 TOP SECTION
+            ================================================= -->
+
+            <section class="result-top">
+
+                <h1>
+                    Quiz Completed!
+                </h1>
+
+
+                <div class="student-name" id="studentName">
+                    Student
+                </div>
+
+
+                <div class="score-circle">
+
+                    <div class="score-number" id="score">
+                        0/0
+                    </div>
+
+
+                    <div class="score-label">
+                        Score
+                    </div>
+
+                </div>
+
+
+                <div class="percentage" id="percentage">
+                    0%
+                </div>
+
+
+                <div id="status" class="status">
+
+                    -
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 STATISTICS
+            ================================================= -->
+
+            <section class="stats">
+
+
+                <div class="stat-box">
+
+                    <div class="stat-value" id="correctAnswers">
+                        0
+                    </div>
+
+                    <div class="stat-label">
+                        Correct
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box">
+
+                    <div class="stat-value" id="wrongAnswers">
+                        0
+                    </div>
+
+                    <div class="stat-label">
+                        Wrong
+                    </div>
+
+                </div>
+
+
+                <div class="stat-box">
+
+                    <div class="stat-value" id="attempted">
+                        0
+                    </div>
+
+                    <div class="stat-label">
+                        Attempted
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- =================================================
+                 DETAILS
+            ================================================= -->
+
+            <section class="details">
+
+                <div class="details-title">
+                    Quiz Details
+                </div>
+
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Certificate ID
+                    </span>
+
+                    <span class="detail-value" id="certificateId">
+                        Generating...
+                    </span>
+
+                </div>
+
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Email
+                    </span>
+
+                    <span class="detail-value" id="studentEmail">
+                        -
+                    </span>
+
+                </div>
+
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Quiz Type
+                    </span>
+
+                    <span class="detail-value" id="quizType">
+                        -
+                    </span>
+
+                </div>
+
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Total Questions
+                    </span>
+
+                    <span class="detail-value" id="totalQuestions">
+                        0
+                    </span>
+
+                </div>
+
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Percentage
+                    </span>
+
+                    <span class="detail-value" id="detailPercentage">
+                        0%
+                    </span>
+
+                </div>
+
+
+                <div class="detail-row">
+
+                    <span class="detail-label">
+                        Result
+                    </span>
+
+                    <span class="detail-value" id="detailStatus">
+                        -
+                    </span>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- =================================================
+                 BUTTONS
+            ================================================= -->
+
+            <div class="actions">
+
+                <a href="../index.html" class="btn btn-secondary">
+                    Back to Home
+                </a>
+
+                <!-- Certificate Button -->
+                <a href="#" id="certificateButton" class="btn btn-primary" style="display:none;">
+                    View Certificate
+                </a>
+
+                <!-- <button class="btn btn-primary" onclick="window.print()">
+                    Print Result
+                </button> -->
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ===================================================== -->
+
+    <footer class="footer">
+
+        © 2026 KrishnaPrep — Competitive Exam Preparation
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ===================================================== -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            loadResult();
+        });
+
+
+        /* =====================================================
+           LOAD QUIZ RESULT
+        ===================================================== */
+
+        function loadResult() {
+
+            const storedResult = sessionStorage.getItem("quizResult");
+
+
+            /* =================================================
+               RESULT NOT FOUND
+            ================================================= */
+
+            if (!storedResult) {
+
+                document.querySelector(".result-card").innerHTML = `
+                <div class="result-not-found">
+
+                    <h2>Result Not Found</h2>
+
+                    <p>
+                        Please attempt the quiz again.
+                    </p>
+
+                    <a href="../index.html" class="btn btn-primary">
+                        Back to Home
+                    </a>
+
+                </div>
+            `;
+
+                return;
+            }
+
+
+            /* =================================================
+               PARSE RESULT
+            ================================================= */
+
+            let result;
+
+            try {
+
+                result = JSON.parse(storedResult);
+
+            } catch (error) {
+
+                console.error("Invalid quiz result:", error);
+
+                alert("Unable to load quiz result.");
+
+                return;
+            }
+
+
+            console.log("Quiz Result:", result);
+
+
+            /* =================================================
+               STUDENT NAME
+            ================================================= */
+
+            document.getElementById("studentName").innerText =
+                result.studentName || "Student";
+
+
+            /* =================================================
+               EMAIL
+            ================================================= */
+
+            document.getElementById("studentEmail").innerText =
+                result.studentEmail || "-";
+
+
+            /* =================================================
+               CERTIFICATE ID
+            ================================================= */
+
+            const certificateID =
+                result.certificateId ||
+                result.certificateID ||
+                "";
+
+            document.getElementById("certificateId").innerText =
+                certificateID || "Not Available";
+
+
+            /* =================================================
+               SCORE
+            ================================================= */
+
+            const score = Number(result.score) || 0;
+            const total = Number(result.total) || 0;
+
+            document.getElementById("score").innerText =
+                `${score}/${total}`;
+
+
+            /* =================================================
+               PERCENTAGE
+            ================================================= */
+
+            let percentage = Number(result.percentage);
+
+            if (isNaN(percentage) && total > 0) {
+
+                percentage = (score / total) * 100;
+            }
+
+            if (isNaN(percentage)) {
+
+                percentage = 0;
+            }
+
+            percentage =
+                Math.round(percentage * 100) / 100;
+
+
+            document.getElementById("percentage").innerText =
+                `${percentage}%`;
+
+            document.getElementById("detailPercentage").innerText =
+                `${percentage}%`;
+
+
+            /* =================================================
+               STATISTICS
+            ================================================= */
+
+            document.getElementById("correctAnswers").innerText =
+                Number(result.correct) || 0;
+
+            document.getElementById("wrongAnswers").innerText =
+                Number(result.wrong) || 0;
+
+            document.getElementById("attempted").innerText =
+                Number(result.attempted) || 0;
+
+
+            /* =================================================
+               QUIZ TYPE
+            ================================================= */
+
+            const quizType =
+                result.quizType ||
+                result.quizName ||
+                "-";
+
+            document.getElementById("quizType").innerText =
+                quizType.toString().toUpperCase();
+
+
+            /* =================================================
+               TOTAL QUESTIONS
+            ================================================= */
+
+            document.getElementById("totalQuestions").innerText =
+                total;
+
+
+            /* =================================================
+               PASS / FAIL
+            ================================================= */
+
+            const status =
+                document.getElementById("status");
+
+            const detailStatus =
+                document.getElementById("detailStatus");
+
+
+            status.classList.remove("pass", "fail");
+
+
+            const passed =
+                result.passed === true ||
+                result.passed === "true";
+
+
+            if (passed) {
+
+                status.innerText = "PASS";
+
+                status.classList.add("pass");
+
+                detailStatus.innerText = "PASS";
+
+                detailStatus.style.color = "#15803d";
+
+            } else {
+
+                status.innerText = "FAIL";
+
+                status.classList.add("fail");
+
+                detailStatus.innerText = "FAIL";
+
+                detailStatus.style.color = "#dc2626";
+            }
+
+
+            /* =================================================
+               CERTIFICATE BUTTON
+            ================================================= */
+
+            const certificateButton =
+                document.getElementById("certificateButton");
+
+
+            if (passed && certificateID) {
+
+                certificateButton.href =
+                    "../Certificate/certificate.html?id=" +
+                    encodeURIComponent(certificateID);
+
+                certificateButton.style.display =
+                    "inline-flex";
+
+
+                console.log(
+                    "Certificate URL:",
+                    certificateButton.href
+                );
+
+            } else {
+
+                certificateButton.style.display =
+                    "none";
+            }
+
+        }
+    </script>
+
+
+</body>
+
+</html>

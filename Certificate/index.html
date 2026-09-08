@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KrishnaPrep Quiz - Daily, Weekly & Monthly Quiz</title>
+
+    <meta name="description"
+        content="Practice Daily, Weekly and Monthly quizzes on KrishnaPrep. Test your knowledge and earn certificates based on your performance.">
+
+    <meta name="keywords"
+        content="KrishnaPrep Quiz, Daily Quiz, Weekly Quiz, Monthly Quiz, Government Exam Quiz, GK Quiz, Competitive Exam Quiz">
+
+    <meta name="author" content="KrishnaPrep">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        /* ================= HEADER ================= */
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 15px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #111827;
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: #2563eb;
+        }
+
+        nav {
+            display: flex;
+            gap: 22px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #374151;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        /* ================= HERO ================= */
+
+        .hero {
+            background: linear-gradient(135deg,
+                    #111827,
+                    #1e3a8a);
+
+            color: white;
+            text-align: center;
+            padding: 75px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #60a5fa;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.7;
+            color: #e5e7eb;
+        }
+
+        .hero-buttons {
+            margin-top: 30px;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            padding: 13px 25px;
+            margin: 5px;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: bold;
+            background: white;
+            color: #111827;
+        }
+
+        .hero-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* ================= QUIZ SECTION ================= */
+
+        .quiz-section {
+            max-width: 1150px;
+            margin: 55px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .section-title h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #6b7280;
+        }
+
+        .quiz-grid {
+            display: grid;
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 25px;
+        }
+
+        /* ================= QUIZ CARD ================= */
+
+        .quiz-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            text-align: center;
+
+            transition:
+                transform 0.25s,
+                box-shadow 0.25s;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-5px);
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .quiz-icon {
+            width: 65px;
+            height: 65px;
+
+            margin: 0 auto 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 50%;
+
+            background: #eff6ff;
+
+            font-size: 30px;
+        }
+
+        .quiz-card h3 {
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        .quiz-card p {
+            color: #6b7280;
+            line-height: 1.6;
+            min-height: 52px;
+        }
+
+        .quiz-info {
+            margin: 20px 0;
+            padding: 12px;
+
+            background: #f9fafb;
+
+            border-radius: 7px;
+
+            font-size: 14px;
+            color: #374151;
+        }
+
+        .quiz-btn {
+            display: inline-block;
+
+            width: 100%;
+
+            padding: 13px;
+
+            background: #111827;
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 7px;
+
+            font-weight: bold;
+
+            transition: 0.2s;
+        }
+
+        .quiz-btn:hover {
+            background: #2563eb;
+        }
+
+
+        /* ================= TOP 5 SCORERS ================= */
+        /* .top-scorers {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 45px 25px;
+            text-align: center;
+        }
+
+        .top-scorers-grid {
+            display: grid;
+            gap: 22px;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        .scorer-row {
+            display: grid;
+            gap: 22px;
+        }
+
+        .scorer-row.first {
+            grid-template-columns: 1fr;
+            max-width: 280px;
+            margin: 0 auto;
+        }
+
+        .scorer-row.other {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .scorer-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            padding: 22px 18px;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+
+        .scorer-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+        }
+
+        .scorer-photo {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 12px;
+            border: 3px solid #e5e7eb;
+            background: #f3f4f6;
+        }
+
+        .first .scorer-photo {
+            width: 110px;
+            height: 110px;
+        }
+
+        .rank {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .scorer-card h3 {
+            font-size: 18px;
+            margin-bottom: 7px;
+        }
+
+        .scorer-score {
+            font-weight: bold;
+            color: #2563eb;
+        }
+
+        .scorer-percent {
+            color: #6b7280;
+            margin-top: 4px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .scorer-row.other {
+                grid-template-columns: 1fr;
+            }
+
+            .scorer-row.first {
+                max-width: 100%;
+            }
+        } */
+
+        /* ================= CERTIFICATE ================= */
+
+        .certificate-section {
+            max-width: 1000px;
+
+            margin: 60px auto;
+
+            padding: 45px 25px;
+
+            background: white;
+
+            border-radius: 12px;
+
+            text-align: center;
+
+            border: 1px solid #e5e7eb;
+        }
+
+        .certificate-section h2 {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        .certificate-section p {
+            color: #6b7280;
+            line-height: 1.7;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .certificate-buttons {
+            margin-top: 25px;
+        }
+
+        .certificate-btn {
+            display: inline-block;
+
+            padding: 12px 22px;
+
+            margin: 5px;
+
+            border-radius: 7px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            background: #111827;
+
+            color: white;
+        }
+
+        .certificate-btn:hover {
+            background: #2563eb;
+        }
+
+        /* ================= FEATURES ================= */
+
+        .features {
+            max-width: 1100px;
+
+            margin: 60px auto;
+
+            padding: 0 20px;
+        }
+
+        .feature-grid {
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 20px;
+        }
+
+        .feature {
+            background: white;
+
+            padding: 25px;
+
+            border-radius: 10px;
+
+            text-align: center;
+
+            border: 1px solid #e5e7eb;
+        }
+
+        .feature h3 {
+            font-size: 18px;
+            margin: 12px 0 8px;
+        }
+
+        .feature p {
+            color: #6b7280;
+
+            font-size: 14px;
+
+            line-height: 1.5;
+        }
+
+        /* ================= FOOTER ================= */
+
+        footer {
+            background: #111827;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 30px 20px;
+
+            margin-top: 70px;
+        }
+
+        footer p {
+            color: #d1d5db;
+
+            font-size: 14px;
+
+            margin: 6px 0;
+        }
+
+        /* ================= MOBILE ================= */
+
+        @media (max-width: 850px) {
+
+            .quiz-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+            nav {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+        }
+
+        @media (max-width: 500px) {
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding: 55px 20px;
+            }
+
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <a href="../index.html" class="logo">
+            Krishna<span>Prep</span>
+        </a>
+
+        <nav>
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="quize/daily-quiz.html">
+                Daily Quiz
+            </a>
+
+            <a href="quize/weekly-quiz.html">
+                Weekly Quiz
+            </a>
+
+            <a href="quize/monthly-quiz.html">
+                Monthly Quiz
+            </a>
+
+            <!-- <a href="verify-certificate.html">
+                Verify Certificate
+            </a> -->
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <h1>
+            Krishna<span>Prep</span> Quiz
+        </h1>
+
+        <p>
+            Test your knowledge with our Daily, Weekly and Monthly
+            quizzes designed for competitive examination preparation.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="quize/daily-quiz.html" class="hero-btn">
+                Start Daily Quiz
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= QUIZ SECTION ================= -->
+
+    <section class="quiz-section">
+
+        <div class="section-title">
+
+            <h2>
+                Choose Your Quiz
+            </h2>
+
+            <p>
+                Practice regularly and improve your exam preparation.
+            </p>
+
+        </div>
+
+
+        <div class="quiz-grid">
+
+
+            <!-- DAILY -->
+
+            <div class="quiz-card">
+
+                <div class="quiz-icon">
+                    D
+                </div>
+
+                <h3>
+                    Daily Quiz
+                </h3>
+
+                <p>
+                    Practice important questions every day
+                    and build your knowledge consistently.
+                </p>
+
+                <div class="quiz-info">
+
+                    <strong>Questions</strong>
+
+                    <br>
+
+                    Daily Practice
+
+                </div>
+
+                <a href="quize/daily-quiz.html" class="quiz-btn">
+                    Start Daily Quiz
+                </a>
+
+            </div>
+
+
+            <!-- WEEKLY -->
+
+            <div class="quiz-card">
+
+                <div class="quiz-icon">
+                    W
+                </div>
+
+                <h3>
+                    Weekly Quiz
+                </h3>
+
+                <p>
+                    Take a weekly examination and test
+                    your preparation level.
+                </p>
+
+                <div class="quiz-info">
+
+                    <strong>6 Questions</strong>
+
+                    <br>
+
+                    Certificate Eligibility
+
+                </div>
+
+                <a href="quize/weekly-quiz.html" class="quiz-btn">
+                    Start Weekly Quiz
+                </a>
+
+            </div>
+
+
+            <!-- MONTHLY -->
+
+            <div class="quiz-card">
+
+                <div class="quiz-icon">
+                    M
+                </div>
+
+                <h3>
+                    Monthly Quiz
+                </h3>
+
+                <p>
+                    Attempt the monthly examination and
+                    evaluate your overall preparation.
+                </p>
+
+                <div class="quiz-info">
+
+                    <strong>7 Questions</strong>
+
+                    <br>
+
+                    Certificate Eligibility
+
+                </div>
+
+                <a href="quize/monthly-quiz.html" class="quiz-btn">
+                    Start Monthly Quiz
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= TOP 5 SCORERS ================= -->
+
+    <section class="top-scorers">
+
+        <div class="section-title">
+            <h2>🏆 Top 5 Scorers</h2>
+            <p>Our best performers in the quiz</p>
+        </div>
+
+        <div class="top-scorers-grid">
+
+            <!-- ROW 1: RANK 1 -->
+            <div class="scorer-row first">
+
+                <div class="scorer-card">
+                    <div class="rank">🥇 Rank 1</div>
+
+                    <img src="../images/top-scorers/student-1.jpg" alt="Top Scorer 1" class="scorer-photo">
+
+                    <h3>Student Name</h3>
+
+                    <div class="scorer-score">
+                        Score: 95 / 100
+                    </div>
+
+                    <div class="scorer-percent">
+                        95%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- ROW 2: RANK 2 & 3 -->
+            <div class="scorer-row other">
+
+                <div class="scorer-card">
+                    <div class="rank">🥈 Rank 2</div>
+
+                    <img src="../images/top-scorers/student-2.jpg" alt="Top Scorer 2" class="scorer-photo">
+
+                    <h3>Student Name</h3>
+
+                    <div class="scorer-score">
+                        Score: 92 / 100
+                    </div>
+
+                    <div class="scorer-percent">
+                        92%
+                    </div>
+                </div>
+
+
+                <div class="scorer-card">
+                    <div class="rank">🥉 Rank 3</div>
+
+                    <img src="../images/top-scorers/student-3.jpg" alt="Top Scorer 3" class="scorer-photo">
+
+                    <h3>Student Name</h3>
+
+                    <div class="scorer-score">
+                        Score: 90 / 100
+                    </div>
+
+                    <div class="scorer-percent">
+                        90%
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- ROW 3: RANK 4 & 5 -->
+            <div class="scorer-row other">
+
+                <div class="scorer-card">
+                    <div class="rank">4️⃣ Rank 4</div>
+
+                    <img src="../images/top-scorers/student-4.jpg" alt="Top Scorer 4" class="scorer-photo">
+
+                    <h3>Student Name</h3>
+
+                    <div class="scorer-score">
+                        Score: 88 / 100
+                    </div>
+
+                    <div class="scorer-percent">
+                        88%
+                    </div>
+                </div>
+
+
+                <div class="scorer-card">
+                    <div class="rank">5️⃣ Rank 5</div>
+
+                    <img src="../images/top-scorers/student-5.jpg" alt="Top Scorer 5" class="scorer-photo">
+
+                    <h3>Student Name</h3>
+
+                    <div class="scorer-score">
+                        Score: 86 / 100
+                    </div>
+
+                    <div class="scorer-percent">
+                        86%
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CERTIFICATE ================= -->
+<!-- 
+    <section class="certificate-section">
+
+        <h2>
+            Earn Your Certificate
+        </h2>
+
+        <p>
+            Complete eligible quizzes and earn a
+            KrishnaPrep certificate based on your performance.
+            Every certificate can be assigned a unique
+            certificate ID and verified online.
+        </p>
+
+        <div class="certificate-buttons">
+
+            <a href="my-certificates.html" class="certificate-btn">
+                My Certificates
+            </a>
+
+            <a href="verify-certificate.html" class="certificate-btn">
+                Verify Certificate
+            </a>
+
+        </div>
+
+    </section> -->
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="section-title">
+
+            <h2>
+                Why Take KrishnaPrep Quizzes?
+            </h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+            <div class="feature">
+
+                <div style="font-size:30px;">
+                    ✓
+                </div>
+
+                <h3>
+                    Regular Practice
+                </h3>
+
+                <p>
+                    Practice questions regularly
+                    to improve your preparation.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div style="font-size:30px;">
+                    ★
+                </div>
+
+                <h3>
+                    Performance
+                </h3>
+
+                <p>
+                    Check your score and understand
+                    your performance.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div style="font-size:30px;">
+                    C
+                </div>
+
+                <h3>
+                    Certificates
+                </h3>
+
+                <p>
+                    Eligible students can receive
+                    performance-based certificates.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div style="font-size:30px;">
+                    QR
+                </div>
+
+                <h3>
+                    Verification
+                </h3>
+
+                <p>
+                    Certificates can be verified
+                    online using their certificate ID.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 KrishnaPrep. All Rights Reserved.
+        </p>
+
+        <p>
+            Learn • Practice • Improve
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>

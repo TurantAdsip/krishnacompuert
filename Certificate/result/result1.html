@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Result | KrishnaPrep</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+        }
+
+        .result-container {
+            max-width: 650px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+            text-align: center;
+        }
+
+        .result-title {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .score {
+            font-size: 42px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .result-info {
+            text-align: left;
+            margin-top: 25px;
+        }
+
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        .result-label {
+            font-weight: bold;
+        }
+
+        .status {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 25px 0;
+        }
+
+        .home-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="result-container">
+
+        <div class="result-title">
+            Quiz Result
+        </div>
+
+        <div id="studentName">
+            Student
+        </div>
+
+        <div class="score" id="score">
+            0/0
+        </div>
+
+        <div id="percentage">
+            0%
+        </div>
+
+        <div class="status" id="status">
+            -
+        </div>
+
+        <div class="result-info">
+
+            <div class="result-row">
+
+                <span class="result-label">
+                    Quiz Type
+                </span>
+
+                <span id="quizType">
+                    -
+                </span>
+
+            </div>
+
+
+            <div class="result-row">
+
+                <span class="result-label">
+                    Total Questions
+                </span>
+
+                <span id="totalQuestions">
+                    0
+                </span>
+
+            </div>
+
+
+            <div class="result-row">
+
+                <span class="result-label">
+                    Correct Answers
+                </span>
+
+                <span id="correctAnswers">
+                    0
+                </span>
+
+            </div>
+
+
+            <div class="result-row">
+
+                <span class="result-label">
+                    Wrong Answers
+                </span>
+
+                <span id="wrongAnswers">
+                    0
+                </span>
+
+            </div>
+
+
+            <div class="result-row">
+
+                <span class="result-label">
+                    Attempted
+                </span>
+
+                <span id="attempted">
+                    0
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <a href="index.html" class="home-btn">
+
+            Back to Home
+
+        </a>
+
+    </div>
+
+
+    <script>
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            function () {
+
+                loadResult();
+
+            }
+        );
+
+
+        function loadResult() {
+
+            const result =
+                JSON.parse(
+                    sessionStorage.getItem("quizResult")
+                );
+
+
+            if (!result) {
+
+                document.querySelector(
+                    ".result-container"
+                ).innerHTML = `
+
+                    <h2>
+                        Result Not Found
+                    </h2>
+
+                    <p>
+                        Please attempt the quiz again.
+                    </p>
+
+                    <a href="index.html"
+                       class="home-btn">
+                        Back to Home
+                    </a>
+
+                `;
+
+                return;
+
+            }
+
+
+            document.getElementById(
+                "studentName"
+            ).innerText =
+                result.studentName;
+
+
+            document.getElementById(
+                "score"
+            ).innerText =
+                `${result.score}/${result.total}`;
+
+
+            document.getElementById(
+                "percentage"
+            ).innerText =
+                `${result.percentage}%`;
+
+
+            document.getElementById(
+                "quizType"
+            ).innerText =
+                result.quizType;
+
+
+            document.getElementById(
+                "totalQuestions"
+            ).innerText =
+                result.total;
+
+
+            document.getElementById(
+                "correctAnswers"
+            ).innerText =
+                result.correct;
+
+
+            document.getElementById(
+                "wrongAnswers"
+            ).innerText =
+                result.wrong;
+
+
+            document.getElementById(
+                "attempted"
+            ).innerText =
+                result.attempted;
+
+
+            const status =
+                document.getElementById("status");
+
+
+            if (result.passed) {
+
+                status.innerText =
+                    "PASS";
+
+            } else {
+
+                status.innerText =
+                    "FAIL";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

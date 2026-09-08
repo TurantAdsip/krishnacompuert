@@ -1,0 +1,33 @@
+{
+    "quizType": "monthly",
+    "quizId": "2026-09",
+    "title": "Monthly Current Affairs Quiz",
+    "month": "September 2026",
+    "date": "01 September - 30 September 2026",
+    "totalQuestions": 50,
+    "timeLimit": 45,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which is the capital of India?",
+            "options": [
+                "Mumbai",
+                "New Delhi",
+                "Kolkata",
+                "Chennai"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "question": "Which planet is known as the Red Planet?",
+            "options": [
+                "Earth",
+                "Venus",
+                "Mars",
+                "Jupiter"
+            ],
+            "answer": 2
+        }
+    ]
+}
