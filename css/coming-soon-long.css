@@ -1,0 +1,636 @@
+/* ==========================================
+   GOOGLE FONT
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ==========================================
+   RESET
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+    color: #fff;
+    min-height: 100vh;
+}
+
+
+/* ==========================================
+   COMMON
+========================================== */
+
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+p {
+    line-height: 28px;
+}
+
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.coming-hero {
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 20px;
+    padding: 60px 30px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .25);
+}
+
+.hero-icon {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+    box-shadow: 0 15px 30px rgba(37, 99, 235, .4);
+    animation: rocket 3s ease-in-out infinite;
+}
+
+@keyframes rocket {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hero-content h1 {
+    margin-top: 30px;
+    font-size: 55px;
+    color: #ffffff;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #d6d6d6;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ==========================================
+   PROGRESS SECTION
+========================================== */
+
+.progress-section {
+    background: rgba(255, 255, 255, .08);
+    border-radius: 20px;
+    padding: 35px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, .15);
+}
+
+.progress-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 28px;
+    background: #1e293b;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    width: 65%;
+    height: 100%;
+    background: linear-gradient(90deg, #22c55e, #16a34a);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    color: #fff;
+    font-weight: bold;
+    animation: loading 2s ease;
+}
+
+@keyframes loading {
+    from {
+        width: 0;
+    }
+    to {
+        width: 65%;
+    }
+}
+
+
+/* ==========================================
+   SECTION TITLE
+========================================== */
+
+.available h2,
+.upcoming h2,
+.feedback h2,
+.requested h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.available h2 i,
+.upcoming h2 i,
+.feedback h2 i,
+.requested h2 i {
+    color: #38bdf8;
+    margin-right: 8px;
+}
+
+
+/* ==========================================
+   CARD GRID
+========================================== */
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+
+/* ==========================================
+   COMMON CARD
+========================================== */
+
+.card {
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .15);
+    backdrop-filter: blur(15px);
+    border-radius: 18px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: .35s;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .20);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .35);
+}
+
+.card i {
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.card span,
+.card small {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 15px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+
+/* ==========================================
+   AVAILABLE CARD
+========================================== */
+
+.completed {
+    border-left: 6px solid #22c55e;
+}
+
+.completed i {
+    color: #22c55e;
+}
+
+.completed span {
+    background: #22c55e;
+    color: #fff;
+}
+
+
+/* ==========================================
+   COMING SOON CARD
+========================================== */
+
+.upcoming-card {
+    border-left: 6px solid #f59e0b;
+}
+
+.upcoming-card i {
+    color: #f59e0b;
+}
+
+.upcoming-card small {
+    background: #f59e0b;
+    color: #fff;
+}
+
+
+/* ==========================================
+   FEEDBACK
+========================================== */
+
+.feedback {
+    background: rgba(255, 255, 255, .08);
+    border-radius: 20px;
+    padding: 40px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, .15);
+}
+
+.feedback p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #d1d5db;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.feedback input,
+.feedback select,
+.feedback textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, .12);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.feedback input::placeholder,
+.feedback textarea::placeholder {
+    color: #d1d5db;
+}
+
+.feedback select {
+    color: #fff;
+}
+
+.feedback option {
+    color: #000;
+}
+
+.feedback textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.feedback button {
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.feedback button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, .40);
+}
+
+
+/* ==========================================
+   REQUESTED EXAMS
+========================================== */
+
+.request-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.request-box {
+    background: rgba(255, 255, 255, .08);
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, .15);
+    font-size: 22px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.request-box:hover {
+    transform: translateY(-8px);
+}
+
+.request-box span {
+    display: block;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #38bdf8;
+}
+
+
+/* ==========================================
+   HOME BUTTON
+========================================== */
+
+.home {
+    text-align: center;
+    margin: 60px auto;
+}
+
+.home a {
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.home a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 25px rgba(34, 197, 94, .35);
+}
+
+
+/* ==========================================
+   FLOATING ANIMATION
+========================================== */
+
+@keyframes floatCard {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hero-icon {
+    animation: floatCard 3s ease-in-out infinite;
+}
+
+
+/* ==========================================
+   SCROLL ANIMATION READY
+========================================== */
+
+.card,
+.request-box,
+.feedback,
+.progress-section,
+.coming-hero {
+    transition: all .35s ease;
+}
+
+
+/* ==========================================
+   TABLET (992px)
+========================================== */
+
+@media (max-width:992px) {
+    section {
+        width: 94%;
+    }
+    .hero-content h1 {
+        font-size: 46px;
+    }
+    .hero-content p {
+        font-size: 17px;
+    }
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* ==========================================
+   TABLET (768px)
+========================================== */
+
+@media (max-width:768px) {
+    section {
+        width: 95%;
+        margin: 30px auto;
+    }
+    .coming-hero {
+        padding: 40px 20px;
+    }
+    .hero-icon {
+        width: 90px;
+        height: 90px;
+        font-size: 38px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    .hero-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .progress-section {
+        padding: 25px;
+    }
+    .available h2,
+    .upcoming h2,
+    .feedback h2,
+    .requested h2 {
+        font-size: 28px;
+    }
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        padding: 25px 20px;
+    }
+    .feedback {
+        padding: 25px;
+    }
+    .feedback input,
+    .feedback select,
+    .feedback textarea,
+    .feedback button {
+        font-size: 15px;
+    }
+    .request-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ==========================================
+   MOBILE (480px)
+========================================== */
+
+@media (max-width:480px) {
+    body {
+        font-size: 15px;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+    }
+    .hero-content p {
+        font-size: 14px;
+    }
+    .hero-icon {
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+    }
+    .progress-bar {
+        height: 22px;
+    }
+    .progress-fill span {
+        font-size: 12px;
+    }
+    .available h2,
+    .upcoming h2,
+    .feedback h2,
+    .requested h2 {
+        font-size: 24px;
+    }
+    .card h3 {
+        font-size: 20px;
+    }
+    .card i {
+        font-size: 36px;
+    }
+    .request-box {
+        font-size: 18px;
+    }
+    .home a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* ==========================================
+   SMALL PHONE (375px)
+========================================== */
+
+@media (max-width:375px) {
+    .hero-content h1 {
+        font-size: 26px;
+    }
+    .hero-content p {
+        font-size: 13px;
+    }
+    .feedback {
+        padding: 18px;
+    }
+    .feedback input,
+    .feedback select,
+    .feedback textarea {
+        padding: 12px;
+    }
+    .feedback button {
+        padding: 12px;
+    }
+}
+
+
+/* ==========================================
+   EXTRA SMALL PHONE (320px)
+========================================== */
+
+@media (max-width:320px) {
+    .hero-content h1 {
+        font-size: 22px;
+    }
+    .hero-content p {
+        font-size: 12px;
+    }
+    .hero-icon {
+        width: 65px;
+        height: 65px;
+        font-size: 26px;
+    }
+    .card {
+        padding: 18px 15px;
+    }
+    .card h3 {
+        font-size: 18px;
+    }
+    .feedback input,
+    .feedback select,
+    .feedback textarea {
+        font-size: 13px;
+    }
+    .feedback button {
+        font-size: 14px;
+    }
+}
+
+
+/* ==========================================
+   CUSTOM SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #38bdf8;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0ea5e9;
+}

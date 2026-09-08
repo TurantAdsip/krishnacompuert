@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home -->
+    <url>
+        <loc>https://krishnaprep.in/</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Main Pages -->
+    <url>
+        <loc>https://krishnaprep.in/about/about.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/contact/contact.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/privacy/privacy.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/term/term.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Exam Preparation -->
+    <url>
+        <loc>https://krishnaprep.in/guidance/upsc.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/ssc.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/banking.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/railway.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/neet.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/defence.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/psc.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/teaching.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/guidance/police.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Current Affairs -->
+    <url>
+        <loc>https://krishnaprep.in/news/news.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/news/news.html?month=September-2026</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Quiz -->
+      <url>
+        <loc>https://krishnaprep.in/daily-quiz.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://krishnaprep.in/weekly-quiz.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://krishnaprep.in/monthly-quiz.html</loc>
+        <lastmod>2026-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+</urlset>

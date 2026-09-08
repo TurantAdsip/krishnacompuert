@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #0d6efd;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.hero {
+    width: 90%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* Admin */
+
+.login-box {
+    width: 350px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #004ecb;
+}
+
+
+/* ===========================
+   Tablet (992px and below)
+=========================== */
+
+@media (max-width: 992px) {
+    header {
+        padding: 18px;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 15px;
+    }
+    nav a {
+        margin-right: 0;
+        font-size: 16px;
+    }
+    .hero {
+        width: 95%;
+        padding: 25px;
+        margin: 30px auto;
+    }
+    .login-box {
+        width: 80%;
+        margin: 70px auto;
+    }
+}
+
+
+/* ===========================
+   Mobile (768px and below)
+=========================== */
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    header h1 {
+        font-size: 26px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    nav a {
+        display: block;
+        font-size: 16px;
+        margin: 0;
+    }
+    .hero {
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .login-box {
+        width: 92%;
+        padding: 25px;
+        margin: 50px auto;
+    }
+    .login-box h2 {
+        font-size: 24px;
+    }
+    .login-box input,
+    .login-box button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+
+/* ===========================
+   Small Mobile (480px and below)
+=========================== */
+
+@media (max-width: 480px) {
+    header {
+        padding: 12px;
+    }
+    header h1 {
+        font-size: 22px;
+    }
+    nav a {
+        font-size: 15px;
+    }
+    .hero {
+        width: 95%;
+        padding: 15px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .login-box {
+        width: 95%;
+        padding: 20px;
+        margin: 40px auto;
+    }
+    .login-box h2 {
+        font-size: 22px;
+    }
+    .login-box input,
+    .login-box button {
+        padding: 11px;
+        font-size: 15px;
+    }
+}

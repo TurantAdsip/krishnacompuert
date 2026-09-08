@@ -1,0 +1,2205 @@
+{
+    "month": "July 2026",
+    "days": [
+
+        {
+            "id": "2026-07-01",
+            "date": "01 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 1 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "id": "2026-07-01-01",
+                    "category": "Science & Technology",
+                    "title": "ISRO Advances Research in Next-Generation Space Technologies",
+                    "summary": "ISRO continued research and technology development in several advanced areas, including reusable launch vehicles, semi-cryogenic engines, LOX-methane propulsion, quantum communication, space robotics and on-orbit servicing. These technologies are important for reducing launch costs, improving mission capabilities and supporting India's long-term space ambitions.",
+                    "sourceName": "ISRO",
+                    "sourceUrl": "https://www.isro.gov.in/",
+                    "staticGK": [
+                        "Important GK Point 1",
+                        "Important GK Point 2",
+                        "Important GK Point 3"
+                    ],
+                    "mcqs": [{
+                        "question": "Question?",
+                        "options": [
+                            "Option A",
+                            "Option B",
+                            "Option C",
+                            "Option D"
+                        ],
+                        "answer": "Correct Answer"
+                    }]
+                },
+                {
+                    "id": "2026-07-01-02",
+                    "category": "Economy",
+                    "title": "News Title",
+                    "summary": "यहाँ दूसरी news की आसान और पूरी summary होगी।",
+                    "sourceName": "RBI",
+                    "sourceUrl": "https://www.rbi.org.in/",
+                    "staticGK": [
+                        "Important GK Point 1",
+                        "Important GK Point 2"
+                    ],
+                    "mcqs": [{
+                        "question": "Question?",
+                        "options": [
+                            "Option A",
+                            "Option B",
+                            "Option C",
+                            "Option D"
+                        ],
+                        "answer": "Correct Answer"
+                    }]
+                }
+            ]
+        },
+
+        {
+            "id": "2026-07-02",
+            "date": "02 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 02 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-03",
+            "date": "03 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 03 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-04",
+            "date": "04 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 04 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-05",
+            "date": "05 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 05 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-06",
+            "date": "06 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 06 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-07",
+            "date": "07 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 07 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-08",
+            "date": "08 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 08 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-09",
+            "date": "09 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 09 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-10",
+            "date": "10 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 10 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-11",
+            "date": "11 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 11 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-12",
+            "date": "12 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 12 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-13",
+            "date": "13 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 13 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": []
+        },
+
+        {
+            "id": "2026-07-14",
+            "date": "14 July 2026",
+            "totalNews": 1,
+            "description": "Top Current Affairs of 14 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                "id": "2026-07-14-01",
+                "category": "National Affairs",
+                "title": "Protest Continues at Jantar Mantar in New Delhi Over Examination Issues",
+                "summary": "A major protest continued at Jantar Mantar in New Delhi over alleged examination irregularities and demands related to the education system. Environmentalist Sonam Wangchuk was also participating in the protest and had been on a hunger strike in support of the demands. The issue attracted significant national attention because of its connection with students, competitive examinations and education reforms.",
+                "sourceName": "Reuters",
+                "sourceUrl": "https://www.reuters.com/",
+                "staticGK": [
+                    "Place : Jantar Mantar, New Delhi",
+                    "Issue : Examination irregularities and education reforms",
+                    "Important Person : Sonam Wangchuk",
+                    "Related Area : Education and Competitive Examinations"
+                ],
+                "mcqs": [{
+                    "question": "Sonam Wangchuk was associated with the protest at which place in New Delhi?",
+                    "options": [
+                        "India Gate",
+                        "Jantar Mantar",
+                        "Red Fort",
+                        "Ramlila Maidan"
+                    ],
+                    "answer": "Jantar Mantar"
+                }]
+            }]
+        },
+
+        {
+            "id": "2026-07-15",
+            "date": "15 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 15 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "id": "2026-07-15-01",
+                    "category": "International Relations",
+                    "title": "India Reaffirms Support for Palestine's UN Membership Bid",
+                    "summary": "India reiterated its support for Palestine's bid for full United Nations membership and announced additional humanitarian assistance. The development is important for UPSC, SSC, Banking and State PSC examinations due to its relevance in international relations and India's foreign policy.",
+                    "sourceName": "The Economic Times",
+                    "sourceUrl": "https://economictimes.indiatimes.com/news/india/india-backs-palestines-un-bid-declares-aid/articleshow/132399656.cms",
+                    "staticGK": [
+                        "United Nations (UN) Headquarters : New York",
+                        "Current UN Secretary-General : António Guterres",
+                        "Palestine is seeking full UN membership.",
+                        "Topic Importance : International Relations"
+                    ],
+                    "mcqs": [{
+                            "question": "The headquarters of the United Nations is located in which city?",
+                            "options": [
+                                "Geneva",
+                                "Paris",
+                                "New York",
+                                "Vienna"
+                            ],
+                            "answer": "New York"
+                        },
+                        {
+                            "question": "Which country recently reaffirmed support for Palestine's UN membership bid?",
+                            "options": [
+                                "India",
+                                "Japan",
+                                "Australia",
+                                "Brazil"
+                            ],
+                            "answer": "India"
+                        },
+                        {
+                            "question": "The issue is mainly related to which subject?",
+                            "options": [
+                                "Economy",
+                                "International Relations",
+                                "Environment",
+                                "Sports"
+                            ],
+                            "answer": "International Relations"
+                        },
+                        {
+                            "question": "The United Nations was established in which year?",
+                            "options": [
+                                "1945",
+                                "1947",
+                                "1950",
+                                "1965"
+                            ],
+                            "answer": "1945"
+                        },
+                        {
+                            "question": "Who is the current UN Secretary-General?",
+                            "options": [
+                                "António Guterres",
+                                "Tedros Adhanom",
+                                "Kristalina Georgieva",
+                                "Ajay Banga"
+                            ],
+                            "answer": "António Guterres"
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-07-15-02",
+                    "category": "National Affairs",
+                    "title": "Protest at Jantar Mantar Continues Over Examination Issues",
+                    "summary": "On 15 July 2026, the protest at Jantar Mantar in New Delhi continued amid growing participation of students and young people. Activist and educationist Sonam Wangchuk was observing an indefinite hunger strike, while protesters raised concerns over alleged examination irregularities and paper leaks and demanded accountability and reforms in the examination system.",
+                    "sourceName": "The Times of India",
+                    "sourceUrl": "https://timesofindia.indiatimes.com/",
+                    "staticGK": [
+                        "Place : Jantar Mantar, New Delhi",
+                        "Important Person : Sonam Wangchuk",
+                        "Issue : Examination irregularities and paper leaks",
+                        "Related Area : Education and Competitive Examinations",
+                        "Location : New Delhi, India"
+                    ],
+                    "mcqs": [{
+                        "question": "Where was the protest involving Sonam Wangchuk taking place in New Delhi?",
+                        "options": [
+                            "India Gate",
+                            "Jantar Mantar",
+                            "Red Fort",
+                            "Ramlila Maidan"
+                        ],
+                        "answer": "Jantar Mantar"
+                    }]
+                }
+            ]
+        },
+
+        {
+            "id": "2026-07-16",
+            "date": "16 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 16 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "id": "2026-07-16-01",
+                    "category": "National Affairs",
+                    "title": "Sonam Wangchuk's Hunger Strike Continues at Jantar Mantar",
+                    "summary": "On 16 July 2026, climate activist Sonam Wangchuk's indefinite hunger strike at Jantar Mantar in New Delhi entered its 19th day. The protest was linked to demands concerning alleged irregularities in NEET and other examinations, examination reforms and accountability. The Delhi High Court also ordered daily medical monitoring of Wangchuk's health.",
+                    "sourceName": "The New Indian Express",
+                    "sourceUrl": "https://www.newindianexpress.com/india/2026/Jul/16/kejriwal-visits-wangchuk-at-jantar-mantar-backs-protest-delhi-hc-orders-daily-health-monitoring",
+                    "staticGK": [
+                        "Place : Jantar Mantar, New Delhi",
+                        "Important Person : Sonam Wangchuk",
+                        "Issue : Examination irregularities and reforms",
+                        "Related Exam : NEET and other competitive examinations",
+                        "Court : Delhi High Court"
+                    ],
+                    "mcqs": [{
+                            "question": "Where was Sonam Wangchuk observing his hunger strike on 16 July 2026?",
+                            "options": [
+                                "India Gate",
+                                "Jantar Mantar",
+                                "Red Fort",
+                                "Ramlila Maidan"
+                            ],
+                            "answer": "Jantar Mantar"
+                        },
+                        {
+                            "question": "Sonam Wangchuk's protest was mainly related to which issue?",
+                            "options": [
+                                "Examination reforms",
+                                "Sports reforms",
+                                "Banking reforms",
+                                "Agricultural reforms"
+                            ],
+                            "answer": "Examination reforms"
+                        },
+                        {
+                            "question": "Jantar Mantar is located in which city?",
+                            "options": [
+                                "Mumbai",
+                                "New Delhi",
+                                "Kolkata",
+                                "Chennai"
+                            ],
+                            "answer": "New Delhi"
+                        }
+                    ]
+                },
+                {
+                    "id": "2026-07-16-02",
+                    "category": "Science & Technology",
+                    "title": "India Strengthens Semiconductor Technology Push Through ISM 2.0",
+                    "summary": "The Union government continued its focus on strengthening India's semiconductor ecosystem through the India Semiconductor Mission 2.0. The initiative aims to develop domestic semiconductor capabilities, encourage advanced manufacturing and build a stronger electronics and technology ecosystem in India.",
+                    "sourceName": "Indian Express",
+                    "sourceUrl": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-kudankulam-semiconductor-mission-ism-2-0-and-intercontinental-ballistic-missile-10789768/",
+                    "staticGK": [
+                        "Programme : India Semiconductor Mission 2.0",
+                        "Sector : Semiconductor and Electronics",
+                        "Main Objective : Strengthen India's semiconductor ecosystem",
+                        "Related Area : Advanced Technology and Manufacturing"
+                    ],
+                    "mcqs": [{
+                            "question": "India Semiconductor Mission 2.0 is mainly related to which sector?",
+                            "options": [
+                                "Agriculture",
+                                "Semiconductor and Electronics",
+                                "Tourism",
+                                "Textiles"
+                            ],
+                            "answer": "Semiconductor and Electronics"
+                        },
+                        {
+                            "question": "Semiconductors are primarily used in which of the following?",
+                            "options": [
+                                "Electronic devices",
+                                "Cement production",
+                                "Food processing",
+                                "Road construction"
+                            ],
+                            "answer": "Electronic devices"
+                        },
+                        {
+                            "question": "India Semiconductor Mission is associated with which broad objective?",
+                            "options": [
+                                "Strengthening domestic semiconductor capabilities",
+                                "Increasing coal imports",
+                                "Promoting tourism",
+                                "Reducing agricultural production"
+                            ],
+                            "answer": "Strengthening domestic semiconductor capabilities"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "2026-07-17",
+            "date": "17 July 2026",
+            "totalNews": 10,
+            "description": "Top 10 Current Affairs of 17 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "Science & Technology",
+                    "title": "Union Cabinet Approves Semicon 2.0",
+                    "summary": "The Union Cabinet approved Semicon 2.0 with an outlay of Rs. 1.27 lakh crore to strengthen India's semiconductor ecosystem. The initiative aims to support semiconductor manufacturing, technology development and India's position in the global electronics supply chain.",
+                    "sourceName": "AffairsCloud",
+                    "sourceUrl": "https://affairscloud.com/current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Programme : Semicon 2.0",
+                        "Outlay : Rs. 1.27 lakh crore",
+                        "Sector : Semiconductor and Electronics",
+                        "Importance : Technology and Manufacturing"
+                    ],
+                    "mcqs": [{
+                        "question": "Semicon 2.0 is mainly related to which sector?",
+                        "options": [
+                            "Agriculture",
+                            "Semiconductor and Electronics",
+                            "Tourism",
+                            "Textiles"
+                        ],
+                        "answer": "Semiconductor and Electronics"
+                    }]
+                },
+                {
+                    "category": "Economy",
+                    "title": "Cabinet Approves Mobile Phone Manufacturing Scheme",
+                    "summary": "The Union Cabinet approved a mobile phone manufacturing scheme with an outlay of Rs. 62,500 crore. The scheme is aimed at strengthening domestic manufacturing, increasing production capacity and supporting India's electronics industry.",
+                    "sourceName": "AffairsCloud",
+                    "sourceUrl": "https://affairscloud.com/current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Scheme : Mobile Phone Manufacturing Scheme",
+                        "Outlay : Rs. 62,500 crore",
+                        "Sector : Electronics Manufacturing",
+                        "Objective : Strengthen Domestic Manufacturing"
+                    ],
+                    "mcqs": [{
+                        "question": "The approved mobile phone manufacturing scheme has an outlay of?",
+                        "options": [
+                            "Rs. 25,000 crore",
+                            "Rs. 50,000 crore",
+                            "Rs. 62,500 crore",
+                            "Rs. 1 lakh crore"
+                        ],
+                        "answer": "Rs. 62,500 crore"
+                    }]
+                },
+                {
+                    "category": "Economy",
+                    "title": "MoSPI Releases First Trial Index of Services Production",
+                    "summary": "The Ministry of Statistics and Programme Implementation released the first trial Index of Services Production for India. The index is intended to provide information about activity and output in India's large services sector and improve economic measurement.",
+                    "sourceName": "AffairsCloud",
+                    "sourceUrl": "https://affairscloud.com/current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Ministry : MoSPI",
+                        "Full Form : Ministry of Statistics and Programme Implementation",
+                        "Index : Index of Services Production",
+                        "Sector : Services"
+                    ],
+                    "mcqs": [{
+                        "question": "MoSPI stands for?",
+                        "options": [
+                            "Ministry of Statistics and Programme Implementation",
+                            "Ministry of Social Policy and Industry",
+                            "Ministry of Science and Public Information",
+                            "Ministry of Statistics and Planning India"
+                        ],
+                        "answer": "Ministry of Statistics and Programme Implementation"
+                    }]
+                },
+                {
+                    "category": "National Affairs",
+                    "title": "Sonam Wangchuk's Hunger Strike Continues at Jantar Mantar",
+                    "summary": "On 17 July 2026, activist and educationist Sonam Wangchuk continued his indefinite hunger strike at Jantar Mantar in New Delhi, entering the 20th day of his fast. The protest was linked to demands for accountability and reforms in the examination system, including concerns over alleged NEET examination irregularities. The Delhi High Court had also directed regular monitoring of his health.",
+                    "sourceName": "India Today",
+                    "sourceUrl": "https://www.indiatoday.in/india/story/sonam-wangchuk-hunger-strike-cjp-protest-delhi-education-minister-dharmendra-pradhan-neet-paper-leak-2949646-2026-07-17",
+                    "staticGK": [
+                        "Place : Jantar Mantar, New Delhi",
+                        "Important Person : Sonam Wangchuk",
+                        "Hunger Strike : 20th Day on 17 July 2026",
+                        "Related Issue : Examination and Education Reforms",
+                        "Related Examination : NEET"
+                    ],
+                    "mcqs": [{
+                            "question": "Where was Sonam Wangchuk observing his hunger strike on 17 July 2026?",
+                            "options": [
+                                "India Gate",
+                                "Jantar Mantar",
+                                "Red Fort",
+                                "Ramlila Maidan"
+                            ],
+                            "answer": "Jantar Mantar"
+                        },
+                        {
+                            "question": "Sonam Wangchuk's protest was mainly related to which issue?",
+                            "options": [
+                                "Examination and education reforms",
+                                "Banking reforms",
+                                "Sports reforms",
+                                "Agricultural reforms"
+                            ],
+                            "answer": "Examination and education reforms"
+                        },
+                        {
+                            "question": "Jantar Mantar is located in which city?",
+                            "options": [
+                                "Mumbai",
+                                "New Delhi",
+                                "Kolkata",
+                                "Chennai"
+                            ],
+                            "answer": "New Delhi"
+                        },
+                        {
+                            "question": "Which examination was specifically mentioned in relation to the protest?",
+                            "options": [
+                                "NEET",
+                                "GATE",
+                                "CAT",
+                                "CLAT"
+                            ],
+                            "answer": "NEET"
+                        },
+                        {
+                            "question": "On 17 July 2026, Sonam Wangchuk's hunger strike had reached which day?",
+                            "options": [
+                                "15th day",
+                                "18th day",
+                                "20th day",
+                                "25th day"
+                            ],
+                            "answer": "20th day"
+                        }
+                    ]
+                },
+                {
+                    "category": "Railways",
+                    "title": "Railways Unveils Eight More Reforms Under Reform Express",
+                    "summary": "Indian Railways announced eight additional reforms under its Reform Express initiative. The measures focus on modernising freight operations, improving efficiency and simplifying railway processes.",
+                    "sourceName": "AffairsCloud",
+                    "sourceUrl": "https://affairscloud.com/current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Organisation : Indian Railways",
+                        "Initiative : Reform Express",
+                        "Number of Reforms : 8",
+                        "Focus : Freight Operations"
+                    ],
+                    "mcqs": [{
+                        "question": "The Reform Express initiative is associated with which organisation?",
+                        "options": [
+                            "Indian Railways",
+                            "NITI Aayog",
+                            "ISRO",
+                            "DRDO"
+                        ],
+                        "answer": "Indian Railways"
+                    }]
+                },
+                {
+                    "category": "International Relations",
+                    "title": "India Launches Campaign for UNSC Non-Permanent Seat for 2028–29",
+                    "summary": "India launched its campaign for a non-permanent seat on the United Nations Security Council for the 2028–29 term. The campaign is significant for India's foreign policy and its efforts to play a larger role in global decision-making.",
+                    "sourceName": "AffairsCloud",
+                    "sourceUrl": "https://affairscloud.com/current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Organisation : United Nations",
+                        "Body : UN Security Council",
+                        "Target Term : 2028–29",
+                        "Topic : India's Foreign Policy"
+                    ],
+                    "mcqs": [{
+                        "question": "India launched its campaign for a non-permanent seat on the UN Security Council for which term?",
+                        "options": [
+                            "2026–27",
+                            "2027–28",
+                            "2028–29",
+                            "2029–30"
+                        ],
+                        "answer": "2028–29"
+                    }]
+                },
+                {
+                    "category": "Defence",
+                    "title": "Indian Air Force Rafale Jets Arrive in Australia for Exercise Pitch Black 2026",
+                    "summary": "Indian Air Force Rafale fighter aircraft arrived in Australia to participate in Exercise Pitch Black 2026. The multinational air exercise is designed to improve interoperability, operational cooperation and combat readiness among participating air forces.",
+                    "sourceName": "The Times of India",
+                    "sourceUrl": "https://timesofindia.indiatimes.com/defence/news/exercise-pitch-black-2026-iaf-rafales-arrive-in-australia-for-mega-air-drill/articleshow/132455445.cms",
+                    "staticGK": [
+                        "Exercise : Pitch Black 2026",
+                        "Host Country : Australia",
+                        "Indian Aircraft : Rafale",
+                        "Focus : Air Combat and Interoperability"
+                    ],
+                    "mcqs": [{
+                        "question": "Exercise Pitch Black 2026 is being hosted by which country?",
+                        "options": [
+                            "India",
+                            "Australia",
+                            "France",
+                            "Japan"
+                        ],
+                        "answer": "Australia"
+                    }]
+                },
+                {
+                    "category": "Defence",
+                    "title": "Indian Navy Strengthens Maritime Security Capabilities",
+                    "summary": "The Indian Navy continued efforts to strengthen maritime security and anti-submarine warfare capabilities. Such capabilities are important for detecting underwater threats and protecting India's strategic maritime interests.",
+                    "sourceName": "InsightsIAS",
+                    "sourceUrl": "https://www.insightsonindia.com/2026/07/17/upsc-current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Force : Indian Navy",
+                        "Capability : Anti-Submarine Warfare",
+                        "Abbreviation : ASW",
+                        "Domain : Maritime Security"
+                    ],
+                    "mcqs": [{
+                        "question": "ASW stands for?",
+                        "options": [
+                            "Anti-Submarine Warfare",
+                            "Advanced Sea Weapon",
+                            "Air and Sea Warfare",
+                            "Armed Ship Wing"
+                        ],
+                        "answer": "Anti-Submarine Warfare"
+                    }]
+                },
+                {
+                    "category": "Science & Technology",
+                    "title": "Kudankulam Nuclear Power Plant Data Leak Raises Cybersecurity Concerns",
+                    "summary": "A reported cybersecurity incident involving the Kudankulam Nuclear Power Plant highlighted the importance of protecting critical infrastructure from cyber threats. The issue drew attention to cybersecurity and the protection of strategically important nuclear facilities.",
+                    "sourceName": "InsightsIAS",
+                    "sourceUrl": "https://www.insightsonindia.com/2026/07/17/upsc-current-affairs-17-july-2026/",
+                    "staticGK": [
+                        "Power Plant : Kudankulam Nuclear Power Plant",
+                        "Location : Tamil Nadu",
+                        "Sector : Nuclear Energy",
+                        "Related Topic : Cybersecurity"
+                    ],
+                    "mcqs": [{
+                        "question": "Kudankulam Nuclear Power Plant is located in which state?",
+                        "options": [
+                            "Kerala",
+                            "Tamil Nadu",
+                            "Karnataka",
+                            "Andhra Pradesh"
+                        ],
+                        "answer": "Tamil Nadu"
+                    }]
+                },
+                {
+                    "category": "Education",
+                    "title": "Education Reform and Examination Integrity Remain Major National Issues",
+                    "summary": "Examination integrity and education reforms remained major national issues amid protests and concerns over alleged irregularities in competitive examinations. The developments highlighted the importance of transparent recruitment and fair examination systems.",
+                    "sourceName": "SuperKalam",
+                    "sourceUrl": "https://superkalam.com/current-affairs/17-07-2026",
+                    "staticGK": [
+                        "Topic : Examination Integrity",
+                        "Related Area : Education",
+                        "Key Concern : Paper Leaks and Irregularities",
+                        "Importance : Competitive Examinations"
+                    ],
+                    "mcqs": [{
+                        "question": "Examination integrity mainly refers to ensuring?",
+                        "options": [
+                            "Fair and transparent examinations",
+                            "Higher examination fees",
+                            "More examination centres only",
+                            "Longer examination duration"
+                        ],
+                        "answer": "Fair and transparent examinations"
+                    }]
+                },
+                {
+                    "category": "Defence",
+                    "title": "National Scientists Round Table Conference 2026 Begins in Pune",
+                    "summary": "The third National Scientists Round Table Conference was scheduled in Pune from 17 to 19 July 2026. The conference brought scientists, researchers and students together to discuss scientific developments and collaboration across disciplines.",
+                    "sourceName": "The Times of India",
+                    "sourceUrl": "https://timesofindia.indiatimes.com/education/news/mit-world-peace-university-to-host-nsrtc-2026-from-july-17-to-19-in-pune/articleshow/132428481.cms",
+                    "staticGK": [
+                        "Event : National Scientists Round Table Conference",
+                        "Edition : Third",
+                        "Venue : Pune",
+                        "Dates : 17–19 July 2026"
+                    ],
+                    "mcqs": [{
+                        "question": "The third National Scientists Round Table Conference 2026 was held in which city?",
+                        "options": [
+                            "Pune",
+                            "Delhi",
+                            "Bengaluru",
+                            "Hyderabad"
+                        ],
+                        "answer": "Pune"
+                    }]
+                }
+            ]
+        },
+
+        {
+            "id": "2026-07-18",
+            "date": "18 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 18 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "National Affairs",
+                    "title": "Sonam Wangchuk Removed from Jantar Mantar and Taken to Hospital",
+                    "summary": "On 18 July 2026, activist and educationist Sonam Wangchuk was removed from the Jantar Mantar protest site in New Delhi and taken to VMMC and Safdarjung Hospital after his health deteriorated during a 20-day hunger strike. The protest was linked to demands for examination reforms and concerns over alleged irregularities in competitive examinations.",
+                    "sourceName": "The Indian Express",
+                    "sourceUrl": "https://indianexpress.com/article/cities/delhi/sonam-wangchuk-hunger-strike-live-updates-abhijeet-dipke-cjp-cockroach-janta-party-jantar-mantar-10791931/",
+                    "staticGK": [
+                        "Place : Jantar Mantar, New Delhi",
+                        "Important Person : Sonam Wangchuk",
+                        "Hunger Strike : 20 Days",
+                        "Hospital : VMMC and Safdarjung Hospital",
+                        "Related Issue : Examination Reforms"
+                    ],
+                    "mcqs": [{
+                            "question": "Where was Sonam Wangchuk observing his hunger strike?",
+                            "options": [
+                                "India Gate",
+                                "Jantar Mantar",
+                                "Red Fort",
+                                "Ramlila Maidan"
+                            ],
+                            "answer": "Jantar Mantar"
+                        },
+                        {
+                            "question": "On 18 July 2026, Sonam Wangchuk was taken to which hospital?",
+                            "options": [
+                                "AIIMS Delhi",
+                                "VMMC and Safdarjung Hospital",
+                                "Ram Manohar Lohia Hospital",
+                                "Apollo Hospital"
+                            ],
+                            "answer": "VMMC and Safdarjung Hospital"
+                        },
+                        {
+                            "question": "How long had Sonam Wangchuk's hunger strike continued before he was taken to hospital?",
+                            "options": [
+                                "10 days",
+                                "15 days",
+                                "20 days",
+                                "30 days"
+                            ],
+                            "answer": "20 days"
+                        },
+                        {
+                            "question": "The protest was mainly connected with which issue?",
+                            "options": [
+                                "Examination reforms",
+                                "Banking reforms",
+                                "Agricultural reforms",
+                                "Sports reforms"
+                            ],
+                            "answer": "Examination reforms"
+                        },
+                        {
+                            "question": "Jantar Mantar is located in which city?",
+                            "options": [
+                                "Mumbai",
+                                "New Delhi",
+                                "Kolkata",
+                                "Chennai"
+                            ],
+                            "answer": "New Delhi"
+                        }
+                    ]
+                },
+                {
+                    "category": "National Affairs",
+                    "title": "Protesters Continue Jantar Mantar Agitation After Wangchuk's Removal",
+                    "summary": "Following Sonam Wangchuk's removal from the protest site, protesters at Jantar Mantar said that the movement would continue. Abhijeet Dipke, founder of the Cockroach Janta Party, also announced an indefinite hunger strike. Organisers said the planned march towards Parliament on 20 July would proceed as scheduled.",
+                    "sourceName": "The New Indian Express",
+                    "sourceUrl": "https://www.newindianexpress.com/india/2026/Jul/18/cjp-founder-abhijeet-dipke-starts-indefinite-hunger-strike-july-20-march-to-proceed-as-planned",
+                    "staticGK": [
+                        "Place : Jantar Mantar, New Delhi",
+                        "Organisation : Cockroach Janta Party (CJP)",
+                        "Important Person : Abhijeet Dipke",
+                        "Planned March : 20 July 2026",
+                        "Issue : Examination Reforms"
+                    ],
+                    "mcqs": [{
+                            "question": "Who announced an indefinite hunger strike after Sonam Wangchuk was taken to hospital?",
+                            "options": [
+                                "Abhijeet Dipke",
+                                "Rahul Gandhi",
+                                "Dharmendra Pradhan",
+                                "Nandan Nilekani"
+                            ],
+                            "answer": "Abhijeet Dipke"
+                        },
+                        {
+                            "question": "Where did the protesters continue their agitation?",
+                            "options": [
+                                "Jantar Mantar",
+                                "India Gate",
+                                "Parliament House",
+                                "Red Fort"
+                            ],
+                            "answer": "Jantar Mantar"
+                        },
+                        {
+                            "question": "The protesters planned a march towards Parliament on which date?",
+                            "options": [
+                                "18 July",
+                                "19 July",
+                                "20 July",
+                                "21 July"
+                            ],
+                            "answer": "20 July"
+                        },
+                        {
+                            "question": "CJP stands for which organisation?",
+                            "options": [
+                                "Cockroach Janta Party",
+                                "Citizen Justice Party",
+                                "Common Janta Party",
+                                "Central Justice Party"
+                            ],
+                            "answer": "Cockroach Janta Party"
+                        },
+                        {
+                            "question": "The protest was mainly focused on which area?",
+                            "options": [
+                                "Education and examination reforms",
+                                "Foreign trade",
+                                "Defence procurement",
+                                "Sports administration"
+                            ],
+                            "answer": "Education and examination reforms"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "2026-07-19",
+            "date": "19 July 2026",
+            "totalNews": 10,
+            "description": "Top 10 Current Affairs of 19 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "National Affairs",
+                    "title": "All-Party Meeting Held Ahead of Parliament Monsoon Session",
+                    "summary": "The government convened an all-party meeting ahead of the Monsoon Session of Parliament to discuss the legislative agenda and seek cooperation from political parties. The meeting was important for parliamentary functioning and consensus-building before the session.",
+                    "sourceName": "CrackTarget",
+                    "sourceUrl": "https://cracktarget.com/current-affairs-19-july-2026/",
+                    "staticGK": [
+                        "Event : All-Party Meeting",
+                        "Purpose : Discussion before Parliament Monsoon Session",
+                        "Institution : Parliament of India",
+                        "Related Area : Parliamentary Affairs",
+                        "Exam Relevance : Polity and Governance"
+                    ],
+                    "mcqs": [{
+                            "question": "The all-party meeting was held mainly in preparation for which event?",
+                            "options": [
+                                "Parliament Monsoon Session",
+                                "Budget Session",
+                                "General Election",
+                                "Presidential Election"
+                            ],
+                            "answer": "Parliament Monsoon Session"
+                        },
+                        {
+                            "question": "All-party meetings are mainly aimed at?",
+                            "options": [
+                                "Building political consensus",
+                                "Conducting elections",
+                                "Appointing judges",
+                                "Preparing the Union Budget"
+                            ],
+                            "answer": "Building political consensus"
+                        },
+                        {
+                            "question": "The Parliament of India consists of?",
+                            "options": [
+                                "Lok Sabha and Rajya Sabha only",
+                                "President, Lok Sabha and Rajya Sabha",
+                                "Lok Sabha and State Assemblies",
+                                "Rajya Sabha and Supreme Court"
+                            ],
+                            "answer": "President, Lok Sabha and Rajya Sabha"
+                        },
+                        {
+                            "question": "Which House is also known as the House of the People?",
+                            "options": [
+                                "Rajya Sabha",
+                                "Lok Sabha",
+                                "Vidhan Sabha",
+                                "Legislative Council"
+                            ],
+                            "answer": "Lok Sabha"
+                        },
+                        {
+                            "question": "Which House is known as the Council of States?",
+                            "options": [
+                                "Lok Sabha",
+                                "Rajya Sabha",
+                                "Vidhan Sabha",
+                                "Gram Sabha"
+                            ],
+                            "answer": "Rajya Sabha"
+                        }
+                    ]
+                },
+                {
+                    "category": "International Affairs",
+                    "title": "Panama Foreign Minister Visits India",
+                    "summary": "Panama's Foreign Minister Javier Eduardo Martínez-Acha Vásquez visited India for diplomatic engagements. The visit focused on strengthening bilateral relations and cooperation between India and Panama in areas including trade, investment and international cooperation.",
+                    "sourceName": "RankersChoice",
+                    "sourceUrl": "https://rankerschoice.com/19-july-2026-current-affairs-pdf/",
+                    "staticGK": [
+                        "Country : Panama",
+                        "Region : Central America",
+                        "Capital : Panama City",
+                        "Important Area : India-Panama Relations",
+                        "Exam Relevance : International Relations"
+                    ],
+                    "mcqs": [{
+                            "question": "Panama is located in which region?",
+                            "options": [
+                                "Central America",
+                                "South Asia",
+                                "Eastern Europe",
+                                "West Africa"
+                            ],
+                            "answer": "Central America"
+                        },
+                        {
+                            "question": "What is the capital of Panama?",
+                            "options": [
+                                "Panama City",
+                                "Havana",
+                                "San Jose",
+                                "Managua"
+                            ],
+                            "answer": "Panama City"
+                        },
+                        {
+                            "question": "Panama is famous for which important waterway?",
+                            "options": [
+                                "Panama Canal",
+                                "Suez Canal",
+                                "Kiel Canal",
+                                "Corinth Canal"
+                            ],
+                            "answer": "Panama Canal"
+                        },
+                        {
+                            "question": "India-Panama relations are mainly covered under which subject?",
+                            "options": [
+                                "International Relations",
+                                "Biology",
+                                "Sports",
+                                "Railways"
+                            ],
+                            "answer": "International Relations"
+                        },
+                        {
+                            "question": "Panama is part of which continent?",
+                            "options": [
+                                "North America",
+                                "Asia",
+                                "Africa",
+                                "Europe"
+                            ],
+                            "answer": "North America"
+                        }
+                    ]
+                },
+                {
+                    "category": "Science & Technology",
+                    "title": "Vikram-1 Marks Major Milestone for India's Private Space Sector",
+                    "summary": "Skyroot Aerospace's Vikram-1 marked a major milestone for India's private space sector. The development demonstrated the growing role of private Indian companies in orbital launch services and highlighted the expansion of India's commercial space ecosystem.",
+                    "sourceName": "FreePrep",
+                    "sourceUrl": "https://www.freeprep.in/daily-brief/2026-07-19",
+                    "staticGK": [
+                        "Company : Skyroot Aerospace",
+                        "Rocket : Vikram-1",
+                        "Sector : Private Space Industry",
+                        "Related Organisation : IN-SPACe",
+                        "Field : Space Technology"
+                    ],
+                    "mcqs": [{
+                            "question": "Vikram-1 is associated with which company?",
+                            "options": [
+                                "Skyroot Aerospace",
+                                "ISRO",
+                                "HAL",
+                                "BEL"
+                            ],
+                            "answer": "Skyroot Aerospace"
+                        },
+                        {
+                            "question": "Vikram-1 belongs to which sector?",
+                            "options": [
+                                "Private Space Sector",
+                                "Banking Sector",
+                                "Railway Sector",
+                                "Agriculture Sector"
+                            ],
+                            "answer": "Private Space Sector"
+                        },
+                        {
+                            "question": "IN-SPACe is related to which sector?",
+                            "options": [
+                                "Space",
+                                "Banking",
+                                "Railways",
+                                "Agriculture"
+                            ],
+                            "answer": "Space"
+                        },
+                        {
+                            "question": "Skyroot Aerospace is an Indian company working mainly in?",
+                            "options": [
+                                "Space Technology",
+                                "Banking",
+                                "Automobiles",
+                                "Pharmaceuticals"
+                            ],
+                            "answer": "Space Technology"
+                        },
+                        {
+                            "question": "Vikram-1 is a type of?",
+                            "options": [
+                                "Launch Vehicle",
+                                "Fighter Aircraft",
+                                "Submarine",
+                                "Helicopter"
+                            ],
+                            "answer": "Launch Vehicle"
+                        }
+                    ]
+                },
+                {
+                    "category": "Economy & Banking",
+                    "title": "Mobile Phone Manufacturing Scheme Approved to Strengthen Electronics Manufacturing",
+                    "summary": "The Union Cabinet approved the Mobile Phone Manufacturing Scheme with an outlay of Rs. 62,500 crore. The scheme aims to strengthen domestic mobile-phone manufacturing, increase production capacity, attract investment and deepen India's electronics manufacturing ecosystem.",
+                    "sourceName": "FreePrep",
+                    "sourceUrl": "https://www.freeprep.in/daily-brief/2026-07-19",
+                    "staticGK": [
+                        "Scheme : Mobile Phone Manufacturing Scheme",
+                        "Outlay : Rs. 62,500 crore",
+                        "Sector : Electronics Manufacturing",
+                        "Objective : Strengthen Domestic Manufacturing",
+                        "Related Area : Make in India"
+                    ],
+                    "mcqs": [{
+                            "question": "The Mobile Phone Manufacturing Scheme has an outlay of?",
+                            "options": [
+                                "Rs. 25,000 crore",
+                                "Rs. 50,000 crore",
+                                "Rs. 62,500 crore",
+                                "Rs. 1 lakh crore"
+                            ],
+                            "answer": "Rs. 62,500 crore"
+                        },
+                        {
+                            "question": "The scheme is mainly related to which sector?",
+                            "options": [
+                                "Electronics Manufacturing",
+                                "Agriculture",
+                                "Tourism",
+                                "Mining"
+                            ],
+                            "answer": "Electronics Manufacturing"
+                        },
+                        {
+                            "question": "Mobile phone manufacturing is part of which broader sector?",
+                            "options": [
+                                "Electronics",
+                                "Agriculture",
+                                "Textiles",
+                                "Fisheries"
+                            ],
+                            "answer": "Electronics"
+                        },
+                        {
+                            "question": "The scheme mainly aims to promote?",
+                            "options": [
+                                "Domestic manufacturing",
+                                "Foreign tourism",
+                                "Sports",
+                                "Forest conservation"
+                            ],
+                            "answer": "Domestic manufacturing"
+                        },
+                        {
+                            "question": "Which initiative is associated with increasing manufacturing in India?",
+                            "options": [
+                                "Make in India",
+                                "Swachh Bharat",
+                                "Beti Bachao Beti Padhao",
+                                "Khelo India"
+                            ],
+                            "answer": "Make in India"
+                        }
+                    ]
+                },
+                {
+                    "category": "Defence",
+                    "title": "Indian Air Force Prepares for Exercise Pitch Black 2026",
+                    "summary": "The Indian Air Force prepared to participate in Exercise Pitch Black 2026 in Australia. The multinational air exercise provides an opportunity for participating air forces to improve interoperability, operational coordination and combat readiness in complex air operations.",
+                    "sourceName": "CrackTarget",
+                    "sourceUrl": "https://cracktarget.com/current-affairs-19-july-2026/",
+                    "staticGK": [
+                        "Exercise : Pitch Black 2026",
+                        "Host Country : Australia",
+                        "Indian Force : Indian Air Force",
+                        "Domain : Air Warfare",
+                        "Objective : Interoperability and Operational Training"
+                    ],
+                    "mcqs": [{
+                            "question": "Exercise Pitch Black is hosted by which country?",
+                            "options": [
+                                "Australia",
+                                "India",
+                                "France",
+                                "Japan"
+                            ],
+                            "answer": "Australia"
+                        },
+                        {
+                            "question": "Which Indian force participates in Exercise Pitch Black?",
+                            "options": [
+                                "Indian Air Force",
+                                "Indian Navy",
+                                "Indian Army",
+                                "Coast Guard"
+                            ],
+                            "answer": "Indian Air Force"
+                        },
+                        {
+                            "question": "Pitch Black is mainly an exercise related to?",
+                            "options": [
+                                "Air warfare",
+                                "Naval warfare",
+                                "Mountain warfare",
+                                "Cybercrime"
+                            ],
+                            "answer": "Air warfare"
+                        },
+                        {
+                            "question": "International military exercises mainly improve?",
+                            "options": [
+                                "Interoperability",
+                                "Agricultural production",
+                                "Tourism",
+                                "Banking"
+                            ],
+                            "answer": "Interoperability"
+                        },
+                        {
+                            "question": "The headquarters of the Indian Air Force is in?",
+                            "options": [
+                                "New Delhi",
+                                "Mumbai",
+                                "Chennai",
+                                "Pune"
+                            ],
+                            "answer": "New Delhi"
+                        }
+                    ]
+                },
+                {
+                    "category": "Environment",
+                    "title": "Catch the Rain Campaign Renewed for Water Conservation",
+                    "summary": "The government renewed its national call for the Catch the Rain campaign to promote water conservation. The campaign focuses on rainwater harvesting, groundwater recharge, revival of traditional water bodies and public participation in conserving every drop of water.",
+                    "sourceName": "The Cavalier",
+                    "sourceUrl": "https://www.cavalier.in/cds-ota-current-affairs/2026-07-19/catch-the-rain-water-conservation-2026",
+                    "staticGK": [
+                        "Campaign : Catch the Rain",
+                        "Campaign Period : 4 July to 4 August 2026",
+                        "Main Focus : Water Conservation",
+                        "Key Measures : Rainwater Harvesting and Groundwater Recharge",
+                        "Related Programme : Jal Shakti Abhiyan"
+                    ],
+                    "mcqs": [{
+                            "question": "Catch the Rain campaign is mainly related to?",
+                            "options": [
+                                "Water Conservation",
+                                "Air Pollution",
+                                "Forest Fire",
+                                "Wildlife Census"
+                            ],
+                            "answer": "Water Conservation"
+                        },
+                        {
+                            "question": "One important method promoted under the campaign is?",
+                            "options": [
+                                "Rainwater Harvesting",
+                                "Coal Mining",
+                                "Deforestation",
+                                "Plastic Production"
+                            ],
+                            "answer": "Rainwater Harvesting"
+                        },
+                        {
+                            "question": "Groundwater recharge helps to?",
+                            "options": [
+                                "Increase groundwater availability",
+                                "Increase air pollution",
+                                "Reduce forest cover",
+                                "Increase plastic waste"
+                            ],
+                            "answer": "Increase groundwater availability"
+                        },
+                        {
+                            "question": "Catch the Rain is associated with which broad area?",
+                            "options": [
+                                "Water Management",
+                                "Defence",
+                                "Banking",
+                                "Space"
+                            ],
+                            "answer": "Water Management"
+                        },
+                        {
+                            "question": "Which ministry is primarily associated with Jal Shakti programmes?",
+                            "options": [
+                                "Ministry of Jal Shakti",
+                                "Ministry of Defence",
+                                "Ministry of Railways",
+                                "Ministry of Finance"
+                            ],
+                            "answer": "Ministry of Jal Shakti"
+                        }
+                    ]
+                },
+                {
+                    "category": "Sports",
+                    "title": "Major International Sporting Events Feature in July 2026",
+                    "summary": "July 2026 featured major international sporting events including the Tour de France and preparations for the Commonwealth Games. For competitive examinations, important sporting events, host locations and participating countries remain relevant under sports current affairs.",
+                    "sourceName": "2026 Sports Calendar",
+                    "sourceUrl": "https://en.wikipedia.org/wiki/2026_in_sports",
+                    "staticGK": [
+                        "Major Event : Tour de France",
+                        "2026 Commonwealth Games : Glasgow, Scotland",
+                        "Commonwealth Games Dates : 23 July to 2 August 2026",
+                        "Related Area : International Sports"
+                    ],
+                    "mcqs": [{
+                            "question": "The 2026 Commonwealth Games are scheduled to be held in?",
+                            "options": [
+                                "Glasgow",
+                                "London",
+                                "Birmingham",
+                                "Manchester"
+                            ],
+                            "answer": "Glasgow"
+                        },
+                        {
+                            "question": "Glasgow is located in which country?",
+                            "options": [
+                                "Scotland",
+                                "France",
+                                "Germany",
+                                "Italy"
+                            ],
+                            "answer": "Scotland"
+                        },
+                        {
+                            "question": "Tour de France is associated with which sport?",
+                            "options": [
+                                "Cycling",
+                                "Tennis",
+                                "Swimming",
+                                "Boxing"
+                            ],
+                            "answer": "Cycling"
+                        },
+                        {
+                            "question": "Commonwealth Games are associated with countries of the?",
+                            "options": [
+                                "Commonwealth",
+                                "European Union",
+                                "ASEAN",
+                                "NATO"
+                            ],
+                            "answer": "Commonwealth"
+                        },
+                        {
+                            "question": "Which city is hosting the 2026 Commonwealth Games?",
+                            "options": [
+                                "Glasgow",
+                                "Paris",
+                                "Tokyo",
+                                "Delhi"
+                            ],
+                            "answer": "Glasgow"
+                        }
+                    ]
+                },
+                {
+                    "category": "Government & Polity",
+                    "title": "Lok Sabha Speaker Approves Merger of Shiv Sena UBT MPs with Shinde Faction",
+                    "summary": "The Lok Sabha Speaker approved the merger of six Shiv Sena (UBT) MPs into the Shiv Sena faction led by Eknath Shinde. The decision was significant from the perspective of parliamentary procedure, political parties and the anti-defection framework.",
+                    "sourceName": "CrackTarget",
+                    "sourceUrl": "https://cracktarget.com/current-affairs-19-july-2026/",
+                    "staticGK": [
+                        "Institution : Lok Sabha",
+                        "Authority : Lok Sabha Speaker",
+                        "Issue : Merger of MPs",
+                        "Related Law : Tenth Schedule",
+                        "Topic : Anti-Defection and Parliamentary Procedure"
+                    ],
+                    "mcqs": [{
+                            "question": "Who approved the merger of the Shiv Sena UBT MPs?",
+                            "options": [
+                                "Lok Sabha Speaker",
+                                "President of India",
+                                "Prime Minister",
+                                "Chief Justice of India"
+                            ],
+                            "answer": "Lok Sabha Speaker"
+                        },
+                        {
+                            "question": "The anti-defection provisions are contained in which Schedule?",
+                            "options": [
+                                "Tenth Schedule",
+                                "Fifth Schedule",
+                                "Seventh Schedule",
+                                "Ninth Schedule"
+                            ],
+                            "answer": "Tenth Schedule"
+                        },
+                        {
+                            "question": "The decision concerned which House?",
+                            "options": [
+                                "Lok Sabha",
+                                "Rajya Sabha",
+                                "Vidhan Sabha",
+                                "Legislative Council"
+                            ],
+                            "answer": "Lok Sabha"
+                        },
+                        {
+                            "question": "The Tenth Schedule deals mainly with?",
+                            "options": [
+                                "Anti-Defection",
+                                "Languages",
+                                "Panchayats",
+                                "Emergency provisions"
+                            ],
+                            "answer": "Anti-Defection"
+                        },
+                        {
+                            "question": "The Speaker of Lok Sabha is elected by?",
+                            "options": [
+                                "Lok Sabha members",
+                                "Rajya Sabha members",
+                                "President",
+                                "Supreme Court"
+                            ],
+                            "answer": "Lok Sabha members"
+                        }
+                    ]
+                },
+                {
+                    "category": "National Affairs - Protest",
+                    "title": "Jantar Mantar Protest Continues Over Examination Irregularities",
+                    "summary": "The student-led protest at Jantar Mantar in New Delhi continued to attract attention on 19 July 2026. The agitation was linked to concerns over examination paper leaks, technical problems and cancelled tests, with protesters demanding greater accountability and reforms in the examination system. Sonam Wangchuk had also been associated with the protest through a prolonged hunger strike, while a proposed march towards Parliament was planned for 20 July.",
+                    "sourceName": "Al Jazeera",
+                    "sourceUrl": "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament",
+                    "staticGK": [
+                        "Place : Jantar Mantar, New Delhi",
+                        "Issue : Examination Paper Leaks and Irregularities",
+                        "Important Person : Sonam Wangchuk",
+                        "Planned March : Parliament",
+                        "Related Area : Education and Competitive Examinations",
+                        "Protest Participants : Students and Young People"
+                    ],
+                    "mcqs": [{
+                            "question": "Where was the major examination-related protest taking place?",
+                            "options": [
+                                "Jantar Mantar",
+                                "India Gate",
+                                "Red Fort",
+                                "Rajghat"
+                            ],
+                            "answer": "Jantar Mantar"
+                        },
+                        {
+                            "question": "The protest was mainly related to which issue?",
+                            "options": [
+                                "Examination irregularities",
+                                "Banking reforms",
+                                "Sports administration",
+                                "Agricultural subsidies"
+                            ],
+                            "answer": "Examination irregularities"
+                        },
+                        {
+                            "question": "Which city is Jantar Mantar located in?",
+                            "options": [
+                                "New Delhi",
+                                "Mumbai",
+                                "Kolkata",
+                                "Chennai"
+                            ],
+                            "answer": "New Delhi"
+                        },
+                        {
+                            "question": "The protesters planned a march towards?",
+                            "options": [
+                                "Parliament",
+                                "India Gate",
+                                "Supreme Court",
+                                "Rashtrapati Bhavan"
+                            ],
+                            "answer": "Parliament"
+                        },
+                        {
+                            "question": "The protest was particularly important for which group?",
+                            "options": [
+                                "Students and competitive-exam aspirants",
+                                "Only farmers",
+                                "Only industrialists",
+                                "Only tourists"
+                            ],
+                            "answer": "Students and competitive-exam aspirants"
+                        }
+                    ]
+                },
+                {
+                    "category": "Students & Competitive Examinations",
+                    "title": "NEET Results and Examination Integrity Remain Major Issues for Students",
+                    "summary": "NEET and other competitive examinations remained important student-related issues amid continuing discussions over examination integrity, paper leaks, technical problems and fair testing. The developments were particularly relevant for students preparing for medical entrance examinations and other national competitive tests.",
+                    "sourceName": "GovJobs",
+                    "sourceUrl": "https://www.govjobs.net.in/News-digest-for-19-July-2026-afid-5216",
+                    "staticGK": [
+                        "Examination : NEET",
+                        "Full Form : National Eligibility cum Entrance Test",
+                        "Purpose : Medical Entrance Examination",
+                        "Related Area : Competitive Examinations",
+                        "Key Issue : Examination Integrity"
+                    ],
+                    "mcqs": [{
+                            "question": "NEET stands for?",
+                            "options": [
+                                "National Eligibility cum Entrance Test",
+                                "National Education Entrance Test",
+                                "National Examination and Eligibility Test",
+                                "National Engineering Entrance Test"
+                            ],
+                            "answer": "National Eligibility cum Entrance Test"
+                        },
+                        {
+                            "question": "NEET is primarily conducted for admission to?",
+                            "options": [
+                                "Medical courses",
+                                "Engineering courses",
+                                "Law courses",
+                                "Management courses"
+                            ],
+                            "answer": "Medical courses"
+                        },
+                        {
+                            "question": "NEET is a national-level entrance examination in which country?",
+                            "options": [
+                                "India",
+                                "Nepal",
+                                "Sri Lanka",
+                                "Bangladesh"
+                            ],
+                            "answer": "India"
+                        },
+                        {
+                            "question": "Examination integrity mainly means?",
+                            "options": [
+                                "Fair and transparent examination",
+                                "Higher examination fees",
+                                "Longer examination duration",
+                                "More examination centres"
+                            ],
+                            "answer": "Fair and transparent examination"
+                        },
+                        {
+                            "question": "Which agency conducts NEET-UG?",
+                            "options": [
+                                "National Testing Agency",
+                                "UPSC",
+                                "SSC",
+                                "IBPS"
+                            ],
+                            "answer": "National Testing Agency"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "2026-07-20",
+            "date": "20 July 2026",
+            "totalNews": 0,
+            "description": "Top Current Affairs of 16 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "Science & Technology",
+                    "title": "...",
+                    "summary": "...",
+                    "sourceName": "...",
+                    "sourceUrl": "...",
+                    "staticGK": [
+                        "..."
+                    ],
+                    "mcqs": [{
+                        "question": "...",
+                        "options": [
+                            "...",
+                            "...",
+                            "...",
+                            "..."
+                        ],
+                        "answer": "..."
+                    }]
+                },
+                {
+                    "category": "Economy",
+                    "title": "...",
+                    "summary": "...",
+                    "sourceName": "...",
+                    "sourceUrl": "...",
+                    "staticGK": [
+                        "..."
+                    ],
+                    "mcqs": [{
+                        "question": "...",
+                        "options": [
+                            "...",
+                            "...",
+                            "...",
+                            "..."
+                        ],
+                        "answer": "..."
+                    }]
+                }
+            ]
+        }, {
+            "id": "2026-07-21",
+            "date": "21 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 21 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "Science & Technology",
+                    "title": "India Advances Research on Dengue Vaccine Development",
+                    "summary": "Dengue vaccine development remained an important public-health and biotechnology topic in India. Research on dengue vaccines is significant because dengue is a mosquito-borne viral disease that affects large populations in tropical and subtropical regions. Development of an effective vaccine can help reduce the burden of dengue-related illness.",
+                    "sourceName": "The Indian Express",
+                    "sourceUrl": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-dengue-vaccine-right-to-protest-and-epf-scheme-10797194/",
+                    "staticGK": [
+                        "Disease : Dengue",
+                        "Causative Agent : Dengue Virus",
+                        "Vector : Aedes mosquito",
+                        "Related Field : Biotechnology and Public Health",
+                        "Exam Relevance : Science & Technology"
+                    ],
+                    "mcqs": [{
+                            "question": "Dengue is caused by which type of pathogen?",
+                            "options": [
+                                "Bacterium",
+                                "Virus",
+                                "Fungus",
+                                "Protozoan"
+                            ],
+                            "answer": "Virus"
+                        },
+                        {
+                            "question": "Dengue is mainly transmitted by which mosquito?",
+                            "options": [
+                                "Anopheles",
+                                "Aedes",
+                                "Culex",
+                                "Mansonia"
+                            ],
+                            "answer": "Aedes"
+                        },
+                        {
+                            "question": "Dengue is primarily associated with which field?",
+                            "options": [
+                                "Public Health",
+                                "Geology",
+                                "Astronomy",
+                                "Banking"
+                            ],
+                            "answer": "Public Health"
+                        },
+                        {
+                            "question": "Which of the following is a mosquito-borne disease?",
+                            "options": [
+                                "Dengue",
+                                "Diabetes",
+                                "Scurvy",
+                                "Rickets"
+                            ],
+                            "answer": "Dengue"
+                        },
+                        {
+                            "question": "Dengue is especially common in which type of regions?",
+                            "options": [
+                                "Tropical and subtropical regions",
+                                "Polar regions",
+                                "Arctic regions",
+                                "Only desert regions"
+                            ],
+                            "answer": "Tropical and subtropical regions"
+                        }
+                    ]
+                },
+                {
+                    "category": "International Relations",
+                    "title": "India and North Macedonia Strengthen Bilateral Relations",
+                    "summary": "India and North Macedonia strengthened bilateral engagement, with the visit of North Macedonia's President marking an important development in relations between the two countries. The engagement is relevant for international relations, diplomacy, trade and India's outreach to European countries.",
+                    "sourceName": "The Indian Express",
+                    "sourceUrl": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-dengue-vaccine-right-to-protest-and-epf-scheme-10797194/",
+                    "staticGK": [
+                        "Country : North Macedonia",
+                        "Region : Southeast Europe",
+                        "Capital : Skopje",
+                        "Topic : India-North Macedonia Relations",
+                        "Exam Relevance : International Relations"
+                    ],
+                    "mcqs": [{
+                            "question": "North Macedonia is located in which region of Europe?",
+                            "options": [
+                                "Southeast Europe",
+                                "Northern Europe",
+                                "Western Europe",
+                                "Eastern Scandinavia"
+                            ],
+                            "answer": "Southeast Europe"
+                        },
+                        {
+                            "question": "What is the capital of North Macedonia?",
+                            "options": [
+                                "Sofia",
+                                "Skopje",
+                                "Belgrade",
+                                "Zagreb"
+                            ],
+                            "answer": "Skopje"
+                        },
+                        {
+                            "question": "India-North Macedonia relations are mainly a topic of which subject?",
+                            "options": [
+                                "International Relations",
+                                "Biology",
+                                "Economics only",
+                                "Sports"
+                            ],
+                            "answer": "International Relations"
+                        },
+                        {
+                            "question": "North Macedonia is a country in which continent?",
+                            "options": [
+                                "Asia",
+                                "Europe",
+                                "Africa",
+                                "South America"
+                            ],
+                            "answer": "Europe"
+                        },
+                        {
+                            "question": "The capital city of India is?",
+                            "options": [
+                                "Mumbai",
+                                "New Delhi",
+                                "Kolkata",
+                                "Chennai"
+                            ],
+                            "answer": "New Delhi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2026-07-22",
+            "date": "22 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 22 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "Environment",
+                    "title": "World Nature Conservation Day Highlights Protection of Natural Resources",
+                    "summary": "World Nature Conservation Day is observed every year to create awareness about the importance of protecting natural resources, biodiversity and ecosystems. The day highlights the need for sustainable use of forests, water, soil and wildlife and encourages conservation-oriented practices.",
+                    "sourceName": "Vajiram & Ravi",
+                    "sourceUrl": "https://vajiramandravi.com/current-affairs/2026/7/22/",
+                    "staticGK": [
+                        "World Nature Conservation Day : 28 July",
+                        "Theme Area : Conservation of Natural Resources",
+                        "Related Topics : Biodiversity, Forests and Wildlife",
+                        "Exam Relevance : Environment"
+                    ],
+                    "mcqs": [{
+                            "question": "World Nature Conservation Day is observed on which date?",
+                            "options": [
+                                "22 July",
+                                "28 July",
+                                "5 June",
+                                "29 August"
+                            ],
+                            "answer": "28 July"
+                        },
+                        {
+                            "question": "World Nature Conservation Day mainly focuses on?",
+                            "options": [
+                                "Natural resource conservation",
+                                "Space exploration",
+                                "Banking reforms",
+                                "Sports development"
+                            ],
+                            "answer": "Natural resource conservation"
+                        },
+                        {
+                            "question": "Which of the following is a natural resource?",
+                            "options": [
+                                "Water",
+                                "Plastic",
+                                "Computer",
+                                "Cement"
+                            ],
+                            "answer": "Water"
+                        },
+                        {
+                            "question": "Biodiversity refers to?",
+                            "options": [
+                                "Variety of life",
+                                "Only forests",
+                                "Only animals",
+                                "Only microorganisms"
+                            ],
+                            "answer": "Variety of life"
+                        },
+                        {
+                            "question": "World Environment Day is observed on?",
+                            "options": [
+                                "5 June",
+                                "22 April",
+                                "28 July",
+                                "16 September"
+                            ],
+                            "answer": "5 June"
+                        }
+                    ]
+                },
+                {
+                    "category": "Economy",
+                    "title": "Financial and Economic Reforms Remain Important for Inclusive Growth",
+                    "summary": "Economic policy continued to focus on financial inclusion, employment, investment and sustainable growth. These areas are important for strengthening India's economy and ensuring that the benefits of development reach wider sections of society.",
+                    "sourceName": "Government of India",
+                    "sourceUrl": "https://www.india.gov.in/",
+                    "staticGK": [
+                        "Key Concept : Inclusive Growth",
+                        "Related Areas : Employment, Investment and Financial Inclusion",
+                        "Economy : Indian Economy",
+                        "Exam Relevance : Economy"
+                    ],
+                    "mcqs": [{
+                            "question": "Inclusive growth means?",
+                            "options": [
+                                "Growth benefiting wider sections of society",
+                                "Growth only in cities",
+                                "Growth only of large industries",
+                                "Growth only through imports"
+                            ],
+                            "answer": "Growth benefiting wider sections of society"
+                        },
+                        {
+                            "question": "Financial inclusion aims to provide access to?",
+                            "options": [
+                                "Financial services",
+                                "Only government jobs",
+                                "Only education",
+                                "Only transport"
+                            ],
+                            "answer": "Financial services"
+                        },
+                        {
+                            "question": "Which institution is India's central bank?",
+                            "options": [
+                                "SEBI",
+                                "RBI",
+                                "NABARD",
+                                "SIDBI"
+                            ],
+                            "answer": "RBI"
+                        },
+                        {
+                            "question": "GDP is mainly used to measure?",
+                            "options": [
+                                "Economic output",
+                                "Population only",
+                                "Rainfall",
+                                "Literacy only"
+                            ],
+                            "answer": "Economic output"
+                        },
+                        {
+                            "question": "Which sector is directly related to financial inclusion?",
+                            "options": [
+                                "Banking",
+                                "Mining only",
+                                "Forestry only",
+                                "Tourism only"
+                            ],
+                            "answer": "Banking"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2026-07-23",
+            "date": "23 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 23 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "National Affairs",
+                    "title": "National Broadcasting Day Observed in India",
+                    "summary": "National Broadcasting Day is observed in India on 23 July to mark the beginning of radio broadcasting in the country. The day highlights the historical importance of radio and broadcasting in communication, education, information dissemination and public awareness.",
+                    "sourceName": "IndiaGS",
+                    "sourceUrl": "https://www.indiags.com/today-current-affairs",
+                    "staticGK": [
+                        "National Broadcasting Day : 23 July",
+                        "First Radio Broadcast in India : 1923",
+                        "Related Institution : All India Radio",
+                        "Exam Relevance : History and Culture"
+                    ],
+                    "mcqs": [{
+                            "question": "National Broadcasting Day is observed on which date in India?",
+                            "options": [
+                                "21 July",
+                                "23 July",
+                                "25 July",
+                                "28 July"
+                            ],
+                            "answer": "23 July"
+                        },
+                        {
+                            "question": "National Broadcasting Day is related to which medium?",
+                            "options": [
+                                "Radio",
+                                "Newspaper",
+                                "Cinema",
+                                "Postal service"
+                            ],
+                            "answer": "Radio"
+                        },
+                        {
+                            "question": "All India Radio is also known by which name?",
+                            "options": [
+                                "Akashvani",
+                                "Doordarshan",
+                                "Bharatvani",
+                                "Janvani"
+                            ],
+                            "answer": "Akashvani"
+                        },
+                        {
+                            "question": "Radio broadcasting is mainly a form of?",
+                            "options": [
+                                "Mass communication",
+                                "Agriculture",
+                                "Banking",
+                                "Mining"
+                            ],
+                            "answer": "Mass communication"
+                        },
+                        {
+                            "question": "National Broadcasting Day is observed in which country?",
+                            "options": [
+                                "India",
+                                "Japan",
+                                "France",
+                                "Australia"
+                            ],
+                            "answer": "India"
+                        }
+                    ]
+                },
+                {
+                    "category": "Sports",
+                    "title": "Indian Boxer Lovlina Borgohain Assures India of a Medal at Commonwealth Games 2026",
+                    "summary": "Indian boxer Lovlina Borgohain assured India of a medal at the 2026 Commonwealth Games. Her performance was significant for Indian boxing and became an important sports current-affairs topic for competitive examinations.",
+                    "sourceName": "IndiaGS",
+                    "sourceUrl": "https://www.indiags.com/today-current-affairs",
+                    "staticGK": [
+                        "Sport : Boxing",
+                        "Athlete : Lovlina Borgohain",
+                        "Country : India",
+                        "Exam Relevance : Sports Current Affairs"
+                    ],
+                    "mcqs": [{
+                            "question": "Lovlina Borgohain is associated with which sport?",
+                            "options": [
+                                "Boxing",
+                                "Wrestling",
+                                "Badminton",
+                                "Shooting"
+                            ],
+                            "answer": "Boxing"
+                        },
+                        {
+                            "question": "Lovlina Borgohain represents which country?",
+                            "options": [
+                                "India",
+                                "Nepal",
+                                "Sri Lanka",
+                                "Bangladesh"
+                            ],
+                            "answer": "India"
+                        },
+                        {
+                            "question": "Boxing is classified as which type of sport?",
+                            "options": [
+                                "Combat sport",
+                                "Water sport",
+                                "Motor sport",
+                                "Winter sport"
+                            ],
+                            "answer": "Combat sport"
+                        },
+                        {
+                            "question": "The Commonwealth Games are associated with countries mainly linked to the?",
+                            "options": [
+                                "Commonwealth",
+                                "European Union",
+                                "NATO",
+                                "ASEAN"
+                            ],
+                            "answer": "Commonwealth"
+                        },
+                        {
+                            "question": "Lovlina Borgohain is an Indian?",
+                            "options": [
+                                "Boxer",
+                                "Cricketer",
+                                "Swimmer",
+                                "Athlete in archery"
+                            ],
+                            "answer": "Boxer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2026-07-24",
+            "date": "24 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 24 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "Economy",
+                    "title": "Anurag Jain Appointed as New CEO of NITI Aayog",
+                    "summary": "The Central Government appointed Anurag Jain as the new Chief Executive Officer of NITI Aayog. The appointment is important for examinations because NITI Aayog plays a major role in policy formulation, cooperative federalism and long-term development strategies in India.",
+                    "sourceName": "IndiaGS",
+                    "sourceUrl": "https://www.indiags.com/today-current-affairs",
+                    "staticGK": [
+                        "Institution : NITI Aayog",
+                        "Headquarters : New Delhi",
+                        "Full Form : National Institution for Transforming India",
+                        "Related Area : Economic Policy and Governance"
+                    ],
+                    "mcqs": [{
+                            "question": "NITI Aayog stands for?",
+                            "options": [
+                                "National Institution for Transforming India",
+                                "National Institute for Trade in India",
+                                "National Investment and Technology Institution",
+                                "National Institution for Transport in India"
+                            ],
+                            "answer": "National Institution for Transforming India"
+                        },
+                        {
+                            "question": "Where is the headquarters of NITI Aayog located?",
+                            "options": [
+                                "Mumbai",
+                                "New Delhi",
+                                "Bengaluru",
+                                "Chennai"
+                            ],
+                            "answer": "New Delhi"
+                        },
+                        {
+                            "question": "NITI Aayog replaced which institution?",
+                            "options": [
+                                "Planning Commission",
+                                "Finance Commission",
+                                "Election Commission",
+                                "UPSC"
+                            ],
+                            "answer": "Planning Commission"
+                        },
+                        {
+                            "question": "NITI Aayog mainly works in which area?",
+                            "options": [
+                                "Policy and development",
+                                "Defence operations",
+                                "Judicial appointments",
+                                "Sports selection"
+                            ],
+                            "answer": "Policy and development"
+                        },
+                        {
+                            "question": "NITI Aayog was established in which year?",
+                            "options": [
+                                "2010",
+                                "2015",
+                                "2018",
+                                "2020"
+                            ],
+                            "answer": "2015"
+                        }
+                    ]
+                },
+                {
+                    "category": "International Trade",
+                    "title": "India Joins WTO Agreement on Fisheries Subsidies",
+                    "summary": "India joined the WTO Agreement on Fisheries Subsidies, an international agreement aimed at addressing harmful fisheries subsidies and promoting sustainable fishing practices. The development is relevant to international trade, marine resources and sustainable development.",
+                    "sourceName": "IndiaGS",
+                    "sourceUrl": "https://www.indiags.com/today-current-affairs",
+                    "staticGK": [
+                        "Organisation : World Trade Organization",
+                        "Agreement : Fisheries Subsidies Agreement",
+                        "Related Area : International Trade and Fisheries",
+                        "Objective : Sustainable Fisheries"
+                    ],
+                    "mcqs": [{
+                            "question": "WTO stands for?",
+                            "options": [
+                                "World Trade Organization",
+                                "World Transport Organization",
+                                "World Tourism Organization",
+                                "World Technology Organization"
+                            ],
+                            "answer": "World Trade Organization"
+                        },
+                        {
+                            "question": "The Fisheries Subsidies Agreement is related to which organisation?",
+                            "options": [
+                                "WTO",
+                                "WHO",
+                                "UNESCO",
+                                "IMF"
+                            ],
+                            "answer": "WTO"
+                        },
+                        {
+                            "question": "The agreement mainly deals with?",
+                            "options": [
+                                "Fisheries subsidies",
+                                "Space exploration",
+                                "Nuclear energy",
+                                "Tourism"
+                            ],
+                            "answer": "Fisheries subsidies"
+                        },
+                        {
+                            "question": "WTO headquarters is located in?",
+                            "options": [
+                                "Geneva",
+                                "New York",
+                                "Paris",
+                                "Rome"
+                            ],
+                            "answer": "Geneva"
+                        },
+                        {
+                            "question": "Sustainable fisheries mainly aim to protect?",
+                            "options": [
+                                "Marine resources",
+                                "Desert resources",
+                                "Mountain glaciers only",
+                                "Urban roads"
+                            ],
+                            "answer": "Marine resources"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2026-07-25",
+            "date": "25 July 2026",
+            "totalNews": 2,
+            "description": "Top Current Affairs of 25 July 2026 for UPSC, SSC, Banking, Railway and Defence Exams.",
+            "news": [{
+                    "category": "Polity & Governance",
+                    "title": "Government Moves to Strengthen Measures Against Examination Paper Leaks",
+                    "summary": "The government continued efforts to strengthen India's examination system and prevent paper leaks and unfair practices. Proposed measures included stronger legal provisions, faster investigation and special mechanisms to deal with organised examination fraud. The issue is highly relevant for students preparing for competitive examinations.",
+                    "sourceName": "The Indian Express",
+                    "sourceUrl": "https://indianexpress.com/article/upsc-current-affairs/upsc-key-pellet-gun-assam-floods-and-typhoon-10806107/",
+                    "staticGK": [
+                        "Issue : Examination Paper Leaks",
+                        "Related Area : Education and Governance",
+                        "Focus : Fair and Transparent Examinations",
+                        "Exam Relevance : Polity and Governance"
+                    ],
+                    "mcqs": [{
+                            "question": "Paper leaks are mainly related to which sector?",
+                            "options": [
+                                "Education and examinations",
+                                "Agriculture",
+                                "Banking",
+                                "Tourism"
+                            ],
+                            "answer": "Education and examinations"
+                        },
+                        {
+                            "question": "A transparent examination system primarily ensures?",
+                            "options": [
+                                "Fairness",
+                                "Higher imports",
+                                "Lower rainfall",
+                                "More tourism"
+                            ],
+                            "answer": "Fairness"
+                        },
+                        {
+                            "question": "Competitive examinations are conducted mainly for?",
+                            "options": [
+                                "Selection based on merit and eligibility",
+                                "Entertainment",
+                                "Tourism promotion",
+                                "Weather forecasting"
+                            ],
+                            "answer": "Selection based on merit and eligibility"
+                        },
+                        {
+                            "question": "Which institution conducts several major national competitive examinations in India?",
+                            "options": [
+                                "NTA",
+                                "RBI",
+                                "SEBI",
+                                "ISRO"
+                            ],
+                            "answer": "NTA"
+                        },
+                        {
+                            "question": "NTA stands for?",
+                            "options": [
+                                "National Testing Agency",
+                                "National Training Authority",
+                                "National Trade Agency",
+                                "National Transport Authority"
+                            ],
+                            "answer": "National Testing Agency"
+                        }
+                    ]
+                },
+                {
+                    "category": "Defence",
+                    "title": "General N.S. Raja Subramani Appointed as Chief of Defence Staff",
+                    "summary": "General N.S. Raja Subramani was appointed as India's Chief of Defence Staff. The CDS plays an important role in promoting jointness among the three armed services and supporting military integration and theatre-command reforms.",
+                    "sourceName": "Shishya",
+                    "sourceUrl": "https://shishya.in/current-affairs/2026-07-25",
+                    "staticGK": [
+                        "Post : Chief of Defence Staff",
+                        "Abbreviation : CDS",
+                        "Role : Promote Jointness and Integration of Armed Forces",
+                        "Related Services : Army, Navy and Air Force"
+                    ],
+                    "mcqs": [{
+                            "question": "CDS stands for?",
+                            "options": [
+                                "Chief of Defence Staff",
+                                "Central Defence Service",
+                                "Chief Department of Security",
+                                "Combined Defence System"
+                            ],
+                            "answer": "Chief of Defence Staff"
+                        },
+                        {
+                            "question": "The CDS works towards greater coordination among how many major armed services?",
+                            "options": [
+                                "Two",
+                                "Three",
+                                "Four",
+                                "Five"
+                            ],
+                            "answer": "Three"
+                        },
+                        {
+                            "question": "Which of the following is NOT one of India's three major armed services?",
+                            "options": [
+                                "Indian Army",
+                                "Indian Navy",
+                                "Indian Air Force",
+                                "Border Security Force"
+                            ],
+                            "answer": "Border Security Force"
+                        },
+                        {
+                            "question": "The CDS is mainly associated with?",
+                            "options": [
+                                "Military integration and jointness",
+                                "Banking regulation",
+                                "Space launches",
+                                "Election management"
+                            ],
+                            "answer": "Military integration and jointness"
+                        },
+                        {
+                            "question": "Which ministry is responsible for India's defence administration?",
+                            "options": [
+                                "Ministry of Defence",
+                                "Ministry of Home Affairs",
+                                "Ministry of Finance",
+                                "Ministry of External Affairs"
+                            ],
+                            "answer": "Ministry of Defence"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
