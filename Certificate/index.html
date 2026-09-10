@@ -12,483 +12,18 @@
 
     <meta name="keywords"
         content="KrishnaPrep Quiz, Daily Quiz, Weekly Quiz, Monthly Quiz, Government Exam Quiz, GK Quiz, Competitive Exam Quiz">
-
+    <meta name="description" content="Latest Government Exams, Results, Admit Card, Current Affairs and Jobs">
+    <meta name="keywords" content="Government Jobs, SSC, UPSC, Railway, Result, Admit Card">
+    <meta name="author" content="Exam Portal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <meta name="author" content="KrishnaPrep">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="../Assets/Logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/moti.css">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f5f7fb;
-            color: #222;
-        }
-
-        /* ================= HEADER ================= */
-
-        header {
-            background: #ffffff;
-            border-bottom: 1px solid #e5e7eb;
-            padding: 15px 6%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .logo {
-            font-size: 25px;
-            font-weight: bold;
-            color: #111827;
-            text-decoration: none;
-        }
-
-        .logo span {
-            color: #2563eb;
-        }
-
-        nav {
-            display: flex;
-            gap: 22px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #374151;
-            font-size: 15px;
-            font-weight: 600;
-        }
-
-        nav a:hover {
-            color: #2563eb;
-        }
-
-        /* ================= HERO ================= */
-
-        .hero {
-            background: linear-gradient(135deg,
-                    #111827,
-                    #1e3a8a);
-
-            color: white;
-            text-align: center;
-            padding: 75px 20px;
-        }
-
-        .hero h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
-
-        .hero h1 span {
-            color: #60a5fa;
-        }
-
-        .hero p {
-            max-width: 700px;
-            margin: auto;
-            font-size: 18px;
-            line-height: 1.7;
-            color: #e5e7eb;
-        }
-
-        .hero-buttons {
-            margin-top: 30px;
-        }
-
-        .hero-btn {
-            display: inline-block;
-            padding: 13px 25px;
-            margin: 5px;
-            border-radius: 7px;
-            text-decoration: none;
-            font-weight: bold;
-            background: white;
-            color: #111827;
-        }
-
-        .hero-btn:hover {
-            opacity: 0.9;
-        }
-
-        /* ================= QUIZ SECTION ================= */
-
-        .quiz-section {
-            max-width: 1150px;
-            margin: 55px auto;
-            padding: 0 20px;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 35px;
-        }
-
-        .section-title h2 {
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-
-        .section-title p {
-            color: #6b7280;
-        }
-
-        .quiz-grid {
-            display: grid;
-            grid-template-columns:
-                repeat(3, 1fr);
-
-            gap: 25px;
-        }
-
-        /* ================= QUIZ CARD ================= */
-
-        .quiz-card {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid #e5e7eb;
-            text-align: center;
-
-            transition:
-                transform 0.25s,
-                box-shadow 0.25s;
-        }
-
-        .quiz-card:hover {
-            transform: translateY(-5px);
-            box-shadow:
-                0 10px 30px rgba(0, 0, 0, 0.08);
-        }
-
-        .quiz-icon {
-            width: 65px;
-            height: 65px;
-
-            margin: 0 auto 20px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border-radius: 50%;
-
-            background: #eff6ff;
-
-            font-size: 30px;
-        }
-
-        .quiz-card h3 {
-            font-size: 23px;
-            margin-bottom: 10px;
-        }
-
-        .quiz-card p {
-            color: #6b7280;
-            line-height: 1.6;
-            min-height: 52px;
-        }
-
-        .quiz-info {
-            margin: 20px 0;
-            padding: 12px;
-
-            background: #f9fafb;
-
-            border-radius: 7px;
-
-            font-size: 14px;
-            color: #374151;
-        }
-
-        .quiz-btn {
-            display: inline-block;
-
-            width: 100%;
-
-            padding: 13px;
-
-            background: #111827;
-            color: white;
-
-            text-decoration: none;
-
-            border-radius: 7px;
-
-            font-weight: bold;
-
-            transition: 0.2s;
-        }
-
-        .quiz-btn:hover {
-            background: #2563eb;
-        }
-
-
-        /* ================= TOP 5 SCORERS ================= */
-        /* .top-scorers {
-            max-width: 1000px;
-            margin: 60px auto;
-            padding: 45px 25px;
-            text-align: center;
-        }
-
-        .top-scorers-grid {
-            display: grid;
-            gap: 22px;
-            max-width: 760px;
-            margin: 0 auto;
-        }
-
-        .scorer-row {
-            display: grid;
-            gap: 22px;
-        }
-
-        .scorer-row.first {
-            grid-template-columns: 1fr;
-            max-width: 280px;
-            margin: 0 auto;
-        }
-
-        .scorer-row.other {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .scorer-card {
-            background: white;
-            border: 1px solid #e5e7eb;
-            border-radius: 14px;
-            padding: 22px 18px;
-            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
-            transition: transform 0.25s, box-shadow 0.25s;
-        }
-
-        .scorer-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
-        }
-
-        .scorer-photo {
-            width: 88px;
-            height: 88px;
-            border-radius: 50%;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto 12px;
-            border: 3px solid #e5e7eb;
-            background: #f3f4f6;
-        }
-
-        .first .scorer-photo {
-            width: 110px;
-            height: 110px;
-        }
-
-        .rank {
-            font-size: 22px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-
-        .scorer-card h3 {
-            font-size: 18px;
-            margin-bottom: 7px;
-        }
-
-        .scorer-score {
-            font-weight: bold;
-            color: #2563eb;
-        }
-
-        .scorer-percent {
-            color: #6b7280;
-            margin-top: 4px;
-            font-size: 14px;
-        }
-
-        @media (max-width: 600px) {
-            .scorer-row.other {
-                grid-template-columns: 1fr;
-            }
-
-            .scorer-row.first {
-                max-width: 100%;
-            }
-        } */
-
-        /* ================= CERTIFICATE ================= */
-
-        .certificate-section {
-            max-width: 1000px;
-
-            margin: 60px auto;
-
-            padding: 45px 25px;
-
-            background: white;
-
-            border-radius: 12px;
-
-            text-align: center;
-
-            border: 1px solid #e5e7eb;
-        }
-
-        .certificate-section h2 {
-            font-size: 28px;
-            margin-bottom: 12px;
-        }
-
-        .certificate-section p {
-            color: #6b7280;
-            line-height: 1.7;
-            max-width: 700px;
-            margin: auto;
-        }
-
-        .certificate-buttons {
-            margin-top: 25px;
-        }
-
-        .certificate-btn {
-            display: inline-block;
-
-            padding: 12px 22px;
-
-            margin: 5px;
-
-            border-radius: 7px;
-
-            text-decoration: none;
-
-            font-weight: bold;
-
-            background: #111827;
-
-            color: white;
-        }
-
-        .certificate-btn:hover {
-            background: #2563eb;
-        }
-
-        /* ================= FEATURES ================= */
-
-        .features {
-            max-width: 1100px;
-
-            margin: 60px auto;
-
-            padding: 0 20px;
-        }
-
-        .feature-grid {
-            display: grid;
-
-            grid-template-columns:
-                repeat(4, 1fr);
-
-            gap: 20px;
-        }
-
-        .feature {
-            background: white;
-
-            padding: 25px;
-
-            border-radius: 10px;
-
-            text-align: center;
-
-            border: 1px solid #e5e7eb;
-        }
-
-        .feature h3 {
-            font-size: 18px;
-            margin: 12px 0 8px;
-        }
-
-        .feature p {
-            color: #6b7280;
-
-            font-size: 14px;
-
-            line-height: 1.5;
-        }
-
-        /* ================= FOOTER ================= */
-
-        footer {
-            background: #111827;
-
-            color: white;
-
-            text-align: center;
-
-            padding: 30px 20px;
-
-            margin-top: 70px;
-        }
-
-        footer p {
-            color: #d1d5db;
-
-            font-size: 14px;
-
-            margin: 6px 0;
-        }
-
-        /* ================= MOBILE ================= */
-
-        @media (max-width: 850px) {
-
-            .quiz-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .feature-grid {
-                grid-template-columns:
-                    repeat(2, 1fr);
-            }
-
-            nav {
-                display: none;
-            }
-
-            .hero h1 {
-                font-size: 32px;
-            }
-
-        }
-
-        @media (max-width: 500px) {
-
-            .feature-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .hero {
-                padding: 55px 20px;
-            }
-
-            .hero h1 {
-                font-size: 28px;
-            }
-
-            .hero p {
-                font-size: 16px;
-            }
-
-        }
-    </style>
 </head>
 
 <body>
@@ -502,7 +37,11 @@
             Krishna<span>Prep</span>
         </a>
 
-        <nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+            ☰
+        </button>
+
+        <nav id="mainMenu">
 
             <a href="../index.html">
                 Home
@@ -531,7 +70,7 @@
 
     <!-- ================= HERO ================= -->
 
-    <section class="hero">
+    <section class="Zero">
 
         <h1>
             Krishna<span>Prep</span> Quiz
@@ -542,13 +81,13 @@
             quizzes designed for competitive examination preparation.
         </p>
 
-        <div class="hero-buttons">
+        <!-- <div class="hero-buttons">
 
             <a href="quize/daily-quiz.html" class="hero-btn">
                 Start Daily Quiz
             </a>
 
-        </div>
+        </div> -->
 
     </section>
 
@@ -681,114 +220,59 @@
 
 
 
-    <!-- ================= TOP 5 SCORERS ================= -->
+    <!-- ================= DAILY TOP 3 ================= -->
 
     <section class="top-scorers">
 
         <div class="section-title">
-            <h2>🏆 Top 5 Scorers</h2>
-            <p>Our best performers in the quiz</p>
+            <h2>🏆 Daily Top 3 Scorers</h2>
+            <p>Our best performers in the Daily quiz</p>
         </div>
 
-        <div class="top-scorers-grid">
+        <div class="top-scorers-grid" id="dailyTopScorers">
 
-            <!-- ROW 1: RANK 1 -->
-            <div class="scorer-row first">
-
-                <div class="scorer-card">
-                    <div class="rank">🥇 Rank 1</div>
-
-                    <img src="../images/top-scorers/student-1.jpg" alt="Top Scorer 1" class="scorer-photo">
-
-                    <h3>Student Name</h3>
-
-                    <div class="scorer-score">
-                        Score: 95 / 100
-                    </div>
-
-                    <div class="scorer-percent">
-                        95%
-                    </div>
-                </div>
-
+            <div class="scorer-card loading-card">
+                Loading Daily Top Scorers...
             </div>
 
+        </div>
 
-            <!-- ROW 2: RANK 2 & 3 -->
-            <div class="scorer-row other">
-
-                <div class="scorer-card">
-                    <div class="rank">🥈 Rank 2</div>
-
-                    <img src="../images/top-scorers/student-2.jpg" alt="Top Scorer 2" class="scorer-photo">
-
-                    <h3>Student Name</h3>
-
-                    <div class="scorer-score">
-                        Score: 92 / 100
-                    </div>
-
-                    <div class="scorer-percent">
-                        92%
-                    </div>
-                </div>
+    </section>
 
 
-                <div class="scorer-card">
-                    <div class="rank">🥉 Rank 3</div>
+    <!-- ================= WEEKLY TOP 3 ================= -->
 
-                    <img src="../images/top-scorers/student-3.jpg" alt="Top Scorer 3" class="scorer-photo">
+    <section class="top-scorers">
 
-                    <h3>Student Name</h3>
+        <div class="section-title">
+            <h2>🏆 Weekly Top 3 Scorers</h2>
+            <p>Our best performers in the Weekly quiz</p>
+        </div>
 
-                    <div class="scorer-score">
-                        Score: 90 / 100
-                    </div>
+        <div class="top-scorers-grid" id="weeklyTopScorers">
 
-                    <div class="scorer-percent">
-                        90%
-                    </div>
-                </div>
-
+            <div class="scorer-card loading-card">
+                Loading Weekly Top Scorers...
             </div>
 
+        </div>
 
-            <!-- ROW 3: RANK 4 & 5 -->
-            <div class="scorer-row other">
-
-                <div class="scorer-card">
-                    <div class="rank">4️⃣ Rank 4</div>
-
-                    <img src="../images/top-scorers/student-4.jpg" alt="Top Scorer 4" class="scorer-photo">
-
-                    <h3>Student Name</h3>
-
-                    <div class="scorer-score">
-                        Score: 88 / 100
-                    </div>
-
-                    <div class="scorer-percent">
-                        88%
-                    </div>
-                </div>
+    </section>
 
 
-                <div class="scorer-card">
-                    <div class="rank">5️⃣ Rank 5</div>
+    <!-- ================= MONTHLY TOP 3 ================= -->
 
-                    <img src="../images/top-scorers/student-5.jpg" alt="Top Scorer 5" class="scorer-photo">
+    <section class="top-scorers">
 
-                    <h3>Student Name</h3>
+        <div class="section-title">
+            <h2>🏆 Monthly Top 3 Scorers</h2>
+            <p>Our best performers in the Monthly quiz</p>
+        </div>
 
-                    <div class="scorer-score">
-                        Score: 86 / 100
-                    </div>
+        <div class="top-scorers-grid" id="monthlyTopScorers">
 
-                    <div class="scorer-percent">
-                        86%
-                    </div>
-                </div>
-
+            <div class="scorer-card loading-card">
+                Loading Monthly Top Scorers...
             </div>
 
         </div>
@@ -796,7 +280,7 @@
     </section>
 
     <!-- ================= CERTIFICATE ================= -->
-<!-- 
+    <!-- 
     <section class="certificate-section">
 
         <h2>
@@ -877,7 +361,7 @@
             </div>
 
 
-            <div class="feature">
+            <!-- <div class="feature">
 
                 <div style="font-size:30px;">
                     C
@@ -892,7 +376,7 @@
                     performance-based certificates.
                 </p>
 
-            </div>
+            </div> -->
 
 
             <div class="feature">
@@ -920,18 +404,405 @@
 
     <!-- ================= FOOTER ================= -->
 
-    <footer>
+    <div id="footer"></div>
 
-        <p>
-            © 2026 KrishnaPrep. All Rights Reserved.
-        </p>
+    <script src="../js/include.js"></script>
 
-        <p>
-            Learn • Practice • Improve
-        </p>
+    <script>
+        const menuToggle = document.getElementById("menuToggle");
+        const mainMenu = document.getElementById("mainMenu");
 
-    </footer>
+        if (menuToggle && mainMenu) {
 
+            menuToggle.addEventListener("click", function () {
+
+                mainMenu.classList.toggle("active");
+
+                if (mainMenu.classList.contains("active")) {
+                    menuToggle.innerHTML = "×";
+                    menuToggle.setAttribute("aria-label", "Close Menu");
+                } else {
+                    menuToggle.innerHTML = "☰";
+                    menuToggle.setAttribute("aria-label", "Open Menu");
+                }
+
+            });
+
+            mainMenu.querySelectorAll("a").forEach(function (link) {
+
+                link.addEventListener("click", function () {
+                    mainMenu.classList.remove("active");
+                    menuToggle.innerHTML = "☰";
+                    menuToggle.setAttribute("aria-label", "Open Menu");
+                });
+
+            });
+        }
+    </script>
+
+    <script>
+
+        /* =========================================================
+           TOP SCORERS API URL
+           ========================================================= */
+
+        const TOP_SCORERS_API =
+            "https://script.google.com/macros/s/AKfycbzy5dc0iAMMug8IhbSzZal08ILSbEro1UAtzk2SBtpco5dUpFsmq3K442vlQW8a3E8T/exec";
+
+
+        /* =========================================================
+           FIXED STUDENT PHOTOS
+           ========================================================= */
+
+        const scorerPhotos = {
+
+            1: "../images/top-scorers/student-1.jpg",
+
+            2: "../images/top-scorers/student-2.jpg",
+
+            3: "../images/top-scorers/student-3.jpg"
+
+        };
+
+
+        /* =========================================================
+           RANK EMOJIS
+           ========================================================= */
+
+        const rankIcons = {
+
+            1: "🥇",
+
+            2: "🥈",
+
+            3: "🥉"
+
+        };
+
+
+        /* =========================================================
+           LOAD TOP SCORERS
+           ========================================================= */
+
+        async function loadTopScorers(
+            quizType,
+            containerId
+        ) {
+
+            const container =
+                document.getElementById(containerId);
+
+
+            if (!container) {
+
+                console.error(
+                    "Container not found:",
+                    containerId
+                );
+
+                return;
+
+            }
+
+
+            try {
+
+                container.innerHTML = `
+            <div class="scorer-card loading-card">
+                Loading...
+            </div>
+        `;
+
+
+                const response =
+                    await fetch(
+                        TOP_SCORERS_API +
+                        "?topScorers=" +
+                        encodeURIComponent(quizType)
+                    );
+
+
+                if (!response.ok) {
+
+                    throw new Error(
+                        "Network response failed."
+                    );
+
+                }
+
+
+                const data =
+                    await response.json();
+
+
+                console.log(
+                    quizType +
+                    " Top Scorers:",
+                    data
+                );
+
+
+                if (
+                    !data.success ||
+                    !Array.isArray(data.scorers)
+                ) {
+
+                    throw new Error(
+                        data.error ||
+                        "No scorer data found."
+                    );
+
+                }
+
+
+                if (data.scorers.length === 0) {
+
+                    container.innerHTML = `
+                <div class="scorer-card no-scorer">
+                    <p>No Top Scorers available yet.</p>
+                </div>
+            `;
+
+                    return;
+
+                }
+
+
+                renderTopScorers(
+                    data.scorers,
+                    container
+                );
+
+
+            } catch (error) {
+
+                console.error(
+                    "Top Scorers Error:",
+                    error
+                );
+
+
+                container.innerHTML = `
+            <div class="scorer-card error-card">
+                <p>Unable to load Top Scorers.</p>
+            </div>
+        `;
+
+            }
+
+        }
+
+
+        /* =========================================================
+           RENDER TOP SCORERS
+           ========================================================= */
+
+        function renderTopScorers(
+            scorers,
+            container
+        ) {
+
+            container.innerHTML = "";
+
+
+            scorers.forEach(
+                function (student, index) {
+
+
+                    const rank =
+                        index + 1;
+
+
+                    const name =
+                        escapeHTML(
+                            student.name ||
+                            "Student"
+                        );
+
+
+                    const score =
+                        Number(
+                            student.score
+                        ) || 0;
+
+
+                    const total =
+                        Number(
+                            student.total
+                        ) || 0;
+
+
+                    let percentage =
+                        Number(
+                            student.percentage
+                        ) || 0;
+                    const scorerCertificateId = escapeHTML(
+                        student.certificateId || "Not Available"
+                    );
+
+
+                    /*
+                     * Safety:
+                     * If percentage is greater than 100,
+                     * calculate it from Score / Total.
+                     */
+
+                    if (
+                        percentage > 100 &&
+                        total > 0
+                    ) {
+
+                        percentage =
+                            (score / total) * 100;
+
+                    }
+
+
+                    /*
+                     * If percentage is missing,
+                     * calculate it.
+                     */
+
+                    if (
+                        percentage <= 0 &&
+                        total > 0
+                    ) {
+
+                        percentage =
+                            (score / total) * 100;
+
+                    }
+
+
+                    percentage =
+                        Math.round(
+                            percentage * 100
+                        ) / 100;
+
+
+                    const card =
+                        document.createElement(
+                            "div"
+                        );
+
+
+                    card.className =
+                        "scorer-card" +
+                        (
+                            rank === 1
+                                ? " first"
+                                : ""
+                        );
+
+
+                    card.innerHTML = `
+
+                <div class="rank">
+                    ${rankIcons[rank] || "🏅"}
+                    Rank ${rank}
+                </div>
+
+                <img
+                    src="${scorerPhotos[rank]}"
+                    alt="Top Scorer ${rank}"
+                    class="scorer-photo"
+                    onerror="this.style.display='none';"
+                >
+
+                <h3>
+                    ${name}
+                </h3>
+
+                <div class="scorer-score">
+                    Score: ${score} / ${total}
+                </div>
+
+                <div class="scorer-percent">
+                    ${percentage}%
+                </div>
+
+               <div class="certificate-no">
+                     Certificate No.: ${scorerCertificateId}
+                </div>
+
+            `;
+
+
+                    container.appendChild(
+                        card
+                    );
+
+                }
+            );
+
+        }
+
+
+        /* =========================================================
+           HTML SECURITY
+           ========================================================= */
+
+        function escapeHTML(value) {
+
+            return String(value)
+
+                .replace(
+                    /&/g,
+                    "&amp;"
+                )
+
+                .replace(
+                    /</g,
+                    "&lt;"
+                )
+
+                .replace(
+                    />/g,
+                    "&gt;"
+                )
+
+                .replace(
+                    /"/g,
+                    "&quot;"
+                )
+
+                .replace(
+                    /'/g,
+                    "&#039;"
+                );
+
+        }
+
+
+        /* =========================================================
+           LOAD ALL 3
+           ========================================================= */
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            function () {
+
+                loadTopScorers(
+                    "daily",
+                    "dailyTopScorers"
+                );
+
+
+                loadTopScorers(
+                    "weekly",
+                    "weeklyTopScorers"
+                );
+
+
+                loadTopScorers(
+                    "monthly",
+                    "monthlyTopScorers"
+                );
+
+            }
+        );
+
+    </script>
 
 </body>
 
