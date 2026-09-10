@@ -4,304 +4,422 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Krishna Computer Cafe</title> -->
+    <title>Latest Government Exams | Results | Current Affairs</title>
 
-    <title>KrishnaPrep Quiz - Daily, Weekly & Monthly Quiz</title>
-
-    <meta name="description"
-        content="Practice Daily, Weekly and Monthly quizzes on KrishnaPrep. Test your knowledge and earn certificates based on your performance.">
-
-    <meta name="keywords"
-        content="KrishnaPrep Quiz, Daily Quiz, Weekly Quiz, Monthly Quiz, Government Exam Quiz, GK Quiz, Competitive Exam Quiz">
     <meta name="description" content="Latest Government Exams, Results, Admit Card, Current Affairs and Jobs">
     <meta name="keywords" content="Government Jobs, SSC, UPSC, Railway, Result, Admit Card">
     <meta name="author" content="Exam Portal">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <meta name="author" content="KrishnaPrep">
-    <link rel="icon" type="image/png" href="../Assets/Logo.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/moti.css">
 
+    <link rel="icon" type="image/png" href="./Assets/Logo.png">
+    <link rel="icon" type="image/png" href="./Assets/Logo1.png">
+    <link rel="stylesheet" href="./data/manifest.json">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/moti.css">
 </head>
 
 <body>
 
+    <!-- Header Section -->
+    <header class="top-header">
+        <div class="header-left">
+            <!-- <span>📞 9696847642</span> -->
+            <span>✉️ surajyadav.weboffice@gmail.com</span>
+        </div>
 
-    <!-- ================= HEADER ================= -->
-
-    <header>
-
-        <a href="../index.html" class="logo">
-            Krishna<span>Prep</span>
-        </a>
-
-        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
-            ☰
-        </button>
-
-        <nav id="mainMenu">
-
-            <a href="../index.html">
-                Home
-            </a>
-
-            <a href="quize/daily-quiz.html">
-                Daily Quiz
-            </a>
-
-            <a href="quize/weekly-quiz.html">
-                Weekly Quiz
-            </a>
-
-            <a href="quize/monthly-quiz.html">
-                Monthly Quiz
-            </a>
-
-            <!-- <a href="verify-certificate.html">
-                Verify Certificate
-            </a> -->
-
-        </nav>
-
+        <div class="header-right">
+            <span>📍 Sultanpur</span>
+        </div>
     </header>
 
+    <nav class="navbar">
 
-    <!-- ================= HERO ================= -->
+        <div class="logo">
+            <img src="./Assets/Logo.png" alt="Logo">
+            <div>
+                <h2>Krishna</h2>
+                <p>Computer Cafe</p>
+            </div>
+        </div>
 
-    <section class="Zero">
+        <!-- Mobile / Tablet Menu Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+            <i class="fas fa-bars"></i>
+        </button>
 
-        <h1>
-            Krishna<span>Prep</span> Quiz
-        </h1>
+        <ul class="menu" id="mainMenu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="./lates exam/lates exam.html">Latest Exams</a></li>
+            <li><a href="./Certificate/index.html">Quiz</a></li>
+            <li><a href="./news/news.html">Current Affairs</a></li>
+            <li><a href="./guidance/guidance.html">Exam Guidance</a></li>
+            <li><a href="./about/about.html">About Us</a></li>
+            <li><a href="./contact/contact.html">Contact Us</a></li>
 
-        <p>
-            Test your knowledge with our Daily, Weekly and Monthly
-            quizzes designed for competitive examination preparation.
-        </p>
+            <!-- WhatsApp inside mobile/tablet menu -->
+            <li class="mobile-whatsapp">
+                <a href="https://whatsapp.com/channel/0029VbDMabvF6smw4sgH000H" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Now
+                </a>
+            </li>
+        </ul>
 
-        <!-- <div class="hero-buttons">
+        <!-- Desktop WhatsApp Button -->
+        <a href="https://whatsapp.com/channel/0029VbDMabvF6smw4sgH000H" class="whatsapp-btn" target="_blank">
+            WhatsApp Now
+        </a>
 
-            <a href="quize/daily-quiz.html" class="hero-btn">
-                Start Daily Quiz
-            </a>
+    </nav>
+    
+    <!-- <nav class="navbar">
+        <div class="logo">
+            <img src="./Assets/Logo.png" alt="Logo">
+            <div>
+                <h2>Krishna</h2>
+                <p>Computer Cafe</p>
+            </div>
+        </div>
 
-        </div> -->
+        <ul class="menu">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="./lates exam/lates exam.html">Latest Exams</a></li>
+            <li><a href="./results/results.html">Results</a></li>
+            <li><a href="./news/news.html">Current Affairs </a></li>
+            <li><a href="./guidance/guidance.html">Exam Guidance</a></li>
+            <li><a href="./about/about.html">About Us</a></li>
+            <li><a href="./contact/contact.html">Contact Us</a></li>
+        </ul>
+
+        <a href="https://whatsapp.com/channel/0029VbDMabvF6smw4sgH000H" class="whatsapp-btn">
+            WhatsApp Now
+        </a>
+    </nav> -->
+
+    <!-- hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+
+            <h1>
+                Krishna <br>
+                <span>Computer Cafe</span>
+            </h1>
+
+            <h3>Your Trusted Digital Service Partner</h3>
+
+            <p>Latest Government Exams, Results, Current Affairs & Complete Exam Guidance</p>
+
+            <div class="hero-buttons">
+                <a href="./contact/contact.html" class="btn-primary">Contact Us</a>
+
+                <a href="https://whatsapp.com/channel/0029VbDMabvF6smw4sgH000H" class="btn-whatsapp">
+                    WhatsApp Now
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="./Assets/hero.png" alt="Krishna Computer Cafe">
+        </div>
+    </section>
+
+    <!-- Motivation -->
+    <div id="moti"></div>
+
+
+    <!-- guidance-section -->
+    <section class="guidance-section">
+
+        <div class="section-title">
+            <h2>Complete Exam Guidance</h2>
+            <p>Select your exam and explore complete guidance including eligibility, syllabus, exam pattern, salary,
+                preparation tips, and more.</p>
+        </div>
+
+        <div class="guidance-grid">
+
+            <!-- UPSC -->
+            <div class="guide-card">
+                <i class="fas fa-landmark"></i>
+                <h3>UPSC Guidance</h3>
+                <p>Complete UPSC Exam Preparation Guide.</p>
+
+                <a href="./guidance/upsc.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore UPSC Guide
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- SSC -->
+            <div class="guide-card">
+                <i class="fas fa-file-alt"></i>
+                <h3>SSC Guidance</h3>
+                <p>Complete SSC Exam Preparation Guide.</p>
+
+                <a href="./guidance/ssc.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore SSC Guide
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Banking -->
+            <div class="guide-card">
+                <i class="fas fa-university"></i>
+                <h3>Banking Guidance</h3>
+                <p>IBPS, SBI & RBI Exam Complete Guide.</p>
+
+                <a href="./guidance/banking.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore Banking Guide
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Railway -->
+            <div class="guide-card">
+                <i class="fas fa-train"></i>
+                <h3>Railway Guidance</h3>
+                <p>RRB NTPC, Group D & ALP Guide.</p>
+
+                <a href="./guidance/railway.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore Railway Guide
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Police -->
+            <div class="guide-card">
+                <i class="fas fa-user-shield"></i>
+                <h3>Police Guidance</h3>
+                <p>State Police & CAPF Recruitment Guide.</p>
+
+                <a href="guidance/police.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore Guidance
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Defence -->
+            <div class="guide-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Defence Guidance</h3>
+                <p>NDA, CDS, AFCAT & Agniveer Guide.</p>
+
+                <a href="guidance/defence.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore Guidance
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- State PSC -->
+            <div class="guide-card">
+                <i class="fas fa-building-columns"></i>
+                <h3>State PSC Guidance</h3>
+                <p>UPPSC, BPSC, MPPSC, RPSC & More.</p>
+
+                <a href="./guidance/pcs.html" class="guide-btn">
+                    <i class="fas fa-book-open"></i> Explore PSC Guide
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- View All Guidance Card -->
+            <div class="guide-card all-guidance">
+                <i class="fas fa-compass"></i>
+                <h3>Explore All Guidance</h3>
+                <p>
+                    View complete guidance for all Government Exams in one place.
+                </p>
+                <a href="./guidance/guidance.html" class="guide-btn">
+                    <i class="fas fa-arrow-right"></i> View All
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Service Section -->
+    <section class="services" id="service">
+
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>We provide reliable digital and documentation services.</p>
+        </div>
+
+        <div class="services-container">
+
+            <div class="service-card">
+                <i class="fas fa-id-card"></i>
+                <h3>PAN Card Services</h3>
+                <p>New PAN Card, Correction & Updates.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-fingerprint"></i>
+                <h3>Aadhaar Services</h3>
+                <p>Aadhaar Update & Assistance.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-file-alt"></i>
+                <h3>Online Forms</h3>
+                <p>All Government & Private Form Filling.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-print"></i>
+                <h3>Printing</h3>
+                <p>Color & Black White Printing Services.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-train"></i>
+                <h3>Ticket Booking</h3>
+                <p>Railway, Bus & Flight Booking.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-bolt"></i>
+                <h3>Bill Payment</h3>
+                <p>Electricity, Water & Recharge Services.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Why choose you. -->
+    <section class="why-us">
+
+        <div class="section-title">
+            <h2>Why Choose Us</h2>
+            <p>We are committed to providing reliable and professional services.</p>
+        </div>
+
+        <div class="why-container">
+
+            <div class="why-box">
+                <i class="fas fa-book-open"></i>
+                <h3>Complete Exam Guidance</h3>
+                <p>One place for all government exam information.</p>
+            </div>
+
+            <div class="why-box">
+                <i class="fas fa-newspaper"></i>
+                <h3>Current Affairs</h3>
+                <p>Stay updated with daily and monthly current affairs.</p>
+            </div>
+
+            <div class="why-box">
+                <i class="fas fa-bell"></i>
+                <h3>Regular Updates</h3>
+                <p>Content is updated frequently to keep information accurate.</p>
+            </div>
+            <div class="why-box">
+                <i class="fas fa-clock"></i>
+                <h3>Quick Service</h3>
+                <p>Fast and hassle-free service for all your digital needs.</p>
+            </div>
+
+            <div class="why-box">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure Process</h3>
+                <p>Your documents and personal information are handled safely.</p>
+            </div>
+
+            <div class="why-box">
+                <i class="fas fa-user-tie"></i>
+                <h3>Experienced Staff</h3>
+                <p>Professional assistance for government and online services.</p>
+            </div>
+
+            <div class="why-box">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Affordable Charges</h3>
+                <p>Quality services at reasonable and transparent pricing.</p>
+            </div>
+
+
+        </div>
 
     </section>
 
 
-    <!-- ================= QUIZ SECTION ================= -->
+    <!-- About-us -->
+    <section class="about-us" id="Ab">
 
-    <section class="quiz-section">
+        <div class="about-image">
+            <img src="./Assets/hero.png" alt="Krishna Computer Cafe">
+        </div>
 
-        <div class="section-title">
+        <div class="about-content">
 
-            <h2>
-                Choose Your Quiz
-            </h2>
+            <span class="about-tag">About Us</span>
+
+            <h2>Welcome to Krishna Computer Cafe</h2>
 
             <p>
-                Practice regularly and improve your exam preparation.
+                Krishna Computer Cafe is your trusted destination for digital and documentation services. We provide PAN
+                Card Services, Aadhaar Assistance, Online Form Filling, Printing, Scanning, Ticket Booking, Bill
+                Payments, and many other computer-related services.
             </p>
 
-        </div>
+            <p>
+                Our goal is to deliver fast, secure, and reliable services while ensuring complete customer
+                satisfaction. We are committed to helping individuals, students, and businesses with their digital
+                requirements.
+            </p>
 
+            <div class="about-features">
 
-        <div class="quiz-grid">
-
-
-            <!-- DAILY -->
-
-            <div class="quiz-card">
-
-                <div class="quiz-icon">
-                    D
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Trusted Services</span>
                 </div>
 
-                <h3>
-                    Daily Quiz
-                </h3>
-
-                <p>
-                    Practice important questions every day
-                    and build your knowledge consistently.
-                </p>
-
-                <div class="quiz-info">
-
-                    <strong>Questions</strong>
-
-                    <br>
-
-                    Daily Practice
-
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Professional Support</span>
                 </div>
 
-                <a href="quize/daily-quiz.html" class="quiz-btn">
-                    Start Daily Quiz
-                </a>
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Affordable Charges</span>
+                </div>
+
+                <div class="feature">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Customer Satisfaction</span>
+                </div>
 
             </div>
 
-
-            <!-- WEEKLY -->
-
-            <div class="quiz-card">
-
-                <div class="quiz-icon">
-                    W
-                </div>
-
-                <h3>
-                    Weekly Quiz
-                </h3>
-
-                <p>
-                    Take a weekly examination and test
-                    your preparation level.
-                </p>
-
-                <div class="quiz-info">
-
-                    <strong>6 Questions</strong>
-
-                    <br>
-
-                    Certificate Eligibility
-
-                </div>
-
-                <a href="quize/weekly-quiz.html" class="quiz-btn">
-                    Start Weekly Quiz
-                </a>
-
-            </div>
-
-
-            <!-- MONTHLY -->
-
-            <div class="quiz-card">
-
-                <div class="quiz-icon">
-                    M
-                </div>
-
-                <h3>
-                    Monthly Quiz
-                </h3>
-
-                <p>
-                    Attempt the monthly examination and
-                    evaluate your overall preparation.
-                </p>
-
-                <div class="quiz-info">
-
-                    <strong>7 Questions</strong>
-
-                    <br>
-
-                    Certificate Eligibility
-
-                </div>
-
-                <a href="quize/monthly-quiz.html" class="quiz-btn">
-                    Start Monthly Quiz
-                </a>
-
-            </div>
-
+            <a href="#contact" class="about-btn">Contact Us</a>
 
         </div>
 
     </section>
 
 
+    <!-- Whatsapp -->
+    <!-- <section class="whatsapp-section">
 
-    <!-- ================= DAILY TOP 3 ================= -->
+        <div class="whatsapp-content">
 
-    <section class="top-scorers">
+            <h2>Need Any Help?</h2>
 
-        <div class="section-title">
-            <h2>🏆 Daily Top 3 Scorers</h2>
-            <p>Our best performers in the Daily quiz</p>
-        </div>
+            <p>
+                Send your documents on WhatsApp and get quick assistance
+                for PAN Card, Online Forms, Printing, Bill Payments, and more.
+            </p>
 
-        <div class="top-scorers-grid" id="dailyTopScorers">
-
-            <div class="scorer-card loading-card">
-                Loading Daily Top Scorers...
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= WEEKLY TOP 3 ================= -->
-
-    <section class="top-scorers">
-
-        <div class="section-title">
-            <h2>🏆 Weekly Top 3 Scorers</h2>
-            <p>Our best performers in the Weekly quiz</p>
-        </div>
-
-        <div class="top-scorers-grid" id="weeklyTopScorers">
-
-            <div class="scorer-card loading-card">
-                Loading Weekly Top Scorers...
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= MONTHLY TOP 3 ================= -->
-
-    <section class="top-scorers">
-
-        <div class="section-title">
-            <h2>🏆 Monthly Top 3 Scorers</h2>
-            <p>Our best performers in the Monthly quiz</p>
-        </div>
-
-        <div class="top-scorers-grid" id="monthlyTopScorers">
-
-            <div class="scorer-card loading-card">
-                Loading Monthly Top Scorers...
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= CERTIFICATE ================= -->
-    <!-- 
-    <section class="certificate-section">
-
-        <h2>
-            Earn Your Certificate
-        </h2>
-
-        <p>
-            Complete eligible quizzes and earn a
-            KrishnaPrep certificate based on your performance.
-            Every certificate can be assigned a unique
-            certificate ID and verified online.
-        </p>
-
-        <div class="certificate-buttons">
-
-            <a href="my-certificates.html" class="certificate-btn">
-                My Certificates
-            </a>
-
-            <a href="verify-certificate.html" class="certificate-btn">
-                Verify Certificate
+            <a href="https://wa.me/919696847642" target="_blank" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i>
+                Chat on WhatsApp
             </a>
 
         </div>
@@ -309,501 +427,144 @@
     </section> -->
 
 
-    <!-- ================= FEATURES ================= -->
 
-    <section class="features">
+    <!-- whatsapp and mail -->
+    <section class="contact-boxes" id="Co">
 
-        <div class="section-title">
+        <!-- WhatsApp Box -->
+        <div class="contact-card whatsapp-card">
+            <i class="fab fa-whatsapp"></i>
+            <h3>WhatsApp Us</h3>
+            <p>Get instant support for all digital services.</p>
 
-            <h2>
-                Why Take KrishnaPrep Quizzes?
-            </h2>
-
+            <a href="https://whatsapp.com/channel/0029VbDMabvF6smw4sgH000H" target="_blank">
+                Chat Now
+            </a>
         </div>
 
+        <!-- Email Box -->
+        <div class="contact-card email-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Us</h3>
+            <p>Send your queries and documents via email.</p>
 
-        <div class="feature-grid">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=surajyadav.weboffice@gmail.com" target="_blank">
+                Send Mail
+            </a>
 
-
-            <div class="feature">
-
-                <div style="font-size:30px;">
-                    ✓
-                </div>
-
-                <h3>
-                    Regular Practice
-                </h3>
-
-                <p>
-                    Practice questions regularly
-                    to improve your preparation.
-                </p>
-
-            </div>
-
-
-            <div class="feature">
-
-                <div style="font-size:30px;">
-                    ★
-                </div>
-
-                <h3>
-                    Performance
-                </h3>
-
-                <p>
-                    Check your score and understand
-                    your performance.
-                </p>
-
-            </div>
-
-
-            <!-- <div class="feature">
-
-                <div style="font-size:30px;">
-                    C
-                </div>
-
-                <h3>
-                    Certificates
-                </h3>
-
-                <p>
-                    Eligible students can receive
-                    performance-based certificates.
-                </p>
-
-            </div> -->
-
-
-            <div class="feature">
-
-                <div style="font-size:30px;">
-                    QR
-                </div>
-
-                <h3>
-                    Verification
-                </h3>
-
-                <p>
-                    Certificates can be verified
-                    online using their certificate ID.
-                </p>
-
-            </div>
-
-
+            <!-- <a href="mailto:surajyadav.weboffice@gmail.com" target="_blank">
+                Send Email
+            </a> -->
         </div>
 
     </section>
 
 
-    <!-- ================= FOOTER ================= -->
+    <!-- Footer -->
+    <footer class="footer">
 
-    <div id="footer"></div>
+        <div class="footer-container">
 
-    <script src="../js/include.js"></script>
+            <!-- Company Info -->
+            <div class="footer-box">
+                <h3>Krishna Computer Cafe</h3>
 
+                <p>
+                    Your trusted partner for PAN Card, Aadhaar Services, Online Forms, Printing, Scanning, Bill
+                    Payments, and Digital Solutions.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="./about/about.html">About Us</a></li>
+                    <li><a href="./contact/contact.html">Contact Us</a></li>
+                    <li><a href="./privacy/privacy.html">Privacy Policy</a></li>
+                    <li><a href="./term/term.html">Terms & Conditions</a></li>
+                    <li><a href="./disclaimer/disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-box">
+                <h3>Contact Info</h3>
+
+                <!-- <p>📞 9696847642</p> -->
+                <p>📧 surajyadav.weboffice@gmail.com</p>
+                <p>📍 Sultanpur</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="https://www.instagram.com/posasudo1?igsh=dno3YmUyaHFwNTIx&igsi=dno3YmUyaHFwNTIx"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <a href="https://whatsapp.com/channel/0029VbDMabvF6smw4sgH000H" target="_blank"><i
+                            class=" fab fa-whatsapp"></i></a>
+
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2026 Krishna Computer Cafe. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="./data/quote.js"></script>
+    <script src="./js/include.js"></script>
     <script>
         const menuToggle = document.getElementById("menuToggle");
         const mainMenu = document.getElementById("mainMenu");
 
-        if (menuToggle && mainMenu) {
+        menuToggle.addEventListener("click", function () {
 
-            menuToggle.addEventListener("click", function () {
+            mainMenu.classList.toggle("active");
 
-                mainMenu.classList.toggle("active");
+            const icon = menuToggle.querySelector("i");
 
-                if (mainMenu.classList.contains("active")) {
-                    menuToggle.innerHTML = "×";
-                    menuToggle.setAttribute("aria-label", "Close Menu");
-                } else {
-                    menuToggle.innerHTML = "☰";
-                    menuToggle.setAttribute("aria-label", "Open Menu");
-                }
+            if (mainMenu.classList.contains("active")) {
+                icon.classList.remove("fa-bars");
+                icon.classList.add("fa-xmark");
+            } else {
+                icon.classList.remove("fa-xmark");
+                icon.classList.add("fa-bars");
+            }
+
+        });
+
+
+        /* Close menu after clicking a link */
+
+        document.querySelectorAll("#mainMenu a").forEach(function (link) {
+
+            link.addEventListener("click", function () {
+
+                mainMenu.classList.remove("active");
+
+                const icon = menuToggle.querySelector("i");
+
+                icon.classList.remove("fa-xmark");
+                icon.classList.add("fa-bars");
 
             });
 
-            mainMenu.querySelectorAll("a").forEach(function (link) {
-
-                link.addEventListener("click", function () {
-                    mainMenu.classList.remove("active");
-                    menuToggle.innerHTML = "☰";
-                    menuToggle.setAttribute("aria-label", "Open Menu");
-                });
-
-            });
-        }
+        });
     </script>
-
-    <script>
-
-        /* =========================================================
-           TOP SCORERS API URL
-           ========================================================= */
-
-        const TOP_SCORERS_API =
-            "https://script.google.com/macros/s/AKfycbzy5dc0iAMMug8IhbSzZal08ILSbEro1UAtzk2SBtpco5dUpFsmq3K442vlQW8a3E8T/exec";
-
-
-        /* =========================================================
-           FIXED STUDENT PHOTOS
-           ========================================================= */
-
-        const scorerPhotos = {
-
-            1: "../images/top-scorers/student-1.jpg",
-
-            2: "../images/top-scorers/student-2.jpg",
-
-            3: "../images/top-scorers/student-3.jpg"
-
-        };
-
-
-        /* =========================================================
-           RANK EMOJIS
-           ========================================================= */
-
-        const rankIcons = {
-
-            1: "🥇",
-
-            2: "🥈",
-
-            3: "🥉"
-
-        };
-
-
-        /* =========================================================
-           LOAD TOP SCORERS
-           ========================================================= */
-
-        async function loadTopScorers(
-            quizType,
-            containerId
-        ) {
-
-            const container =
-                document.getElementById(containerId);
-
-
-            if (!container) {
-
-                console.error(
-                    "Container not found:",
-                    containerId
-                );
-
-                return;
-
-            }
-
-
-            try {
-
-                container.innerHTML = `
-            <div class="scorer-card loading-card">
-                Loading...
-            </div>
-        `;
-
-
-                const response =
-                    await fetch(
-                        TOP_SCORERS_API +
-                        "?topScorers=" +
-                        encodeURIComponent(quizType)
-                    );
-
-
-                if (!response.ok) {
-
-                    throw new Error(
-                        "Network response failed."
-                    );
-
-                }
-
-
-                const data =
-                    await response.json();
-
-
-                console.log(
-                    quizType +
-                    " Top Scorers:",
-                    data
-                );
-
-
-                if (
-                    !data.success ||
-                    !Array.isArray(data.scorers)
-                ) {
-
-                    throw new Error(
-                        data.error ||
-                        "No scorer data found."
-                    );
-
-                }
-
-
-                if (data.scorers.length === 0) {
-
-                    container.innerHTML = `
-                <div class="scorer-card no-scorer">
-                    <p>No Top Scorers available yet.</p>
-                </div>
-            `;
-
-                    return;
-
-                }
-
-
-                renderTopScorers(
-                    data.scorers,
-                    container
-                );
-
-
-            } catch (error) {
-
-                console.error(
-                    "Top Scorers Error:",
-                    error
-                );
-
-
-                container.innerHTML = `
-            <div class="scorer-card error-card">
-                <p>Unable to load Top Scorers.</p>
-            </div>
-        `;
-
-            }
-
-        }
-
-
-        /* =========================================================
-           RENDER TOP SCORERS
-           ========================================================= */
-
-        function renderTopScorers(
-            scorers,
-            container
-        ) {
-
-            container.innerHTML = "";
-
-
-            scorers.forEach(
-                function (student, index) {
-
-
-                    const rank =
-                        index + 1;
-
-
-                    const name =
-                        escapeHTML(
-                            student.name ||
-                            "Student"
-                        );
-
-
-                    const score =
-                        Number(
-                            student.score
-                        ) || 0;
-
-
-                    const total =
-                        Number(
-                            student.total
-                        ) || 0;
-
-
-                    let percentage =
-                        Number(
-                            student.percentage
-                        ) || 0;
-                    const scorerCertificateId = escapeHTML(
-                        student.certificateId || "Not Available"
-                    );
-
-
-                    /*
-                     * Safety:
-                     * If percentage is greater than 100,
-                     * calculate it from Score / Total.
-                     */
-
-                    if (
-                        percentage > 100 &&
-                        total > 0
-                    ) {
-
-                        percentage =
-                            (score / total) * 100;
-
-                    }
-
-
-                    /*
-                     * If percentage is missing,
-                     * calculate it.
-                     */
-
-                    if (
-                        percentage <= 0 &&
-                        total > 0
-                    ) {
-
-                        percentage =
-                            (score / total) * 100;
-
-                    }
-
-
-                    percentage =
-                        Math.round(
-                            percentage * 100
-                        ) / 100;
-
-
-                    const card =
-                        document.createElement(
-                            "div"
-                        );
-
-
-                    card.className =
-                        "scorer-card" +
-                        (
-                            rank === 1
-                                ? " first"
-                                : ""
-                        );
-
-
-                    card.innerHTML = `
-
-                <div class="rank">
-                    ${rankIcons[rank] || "🏅"}
-                    Rank ${rank}
-                </div>
-
-                <img
-                    src="${scorerPhotos[rank]}"
-                    alt="Top Scorer ${rank}"
-                    class="scorer-photo"
-                    onerror="this.style.display='none';"
-                >
-
-                <h3>
-                    ${name}
-                </h3>
-
-                <div class="scorer-score">
-                    Score: ${score} / ${total}
-                </div>
-
-                <div class="scorer-percent">
-                    ${percentage}%
-                </div>
-
-               <div class="certificate-no">
-                     Certificate No.: ${scorerCertificateId}
-                </div>
-
-            `;
-
-
-                    container.appendChild(
-                        card
-                    );
-
-                }
-            );
-
-        }
-
-
-        /* =========================================================
-           HTML SECURITY
-           ========================================================= */
-
-        function escapeHTML(value) {
-
-            return String(value)
-
-                .replace(
-                    /&/g,
-                    "&amp;"
-                )
-
-                .replace(
-                    /</g,
-                    "&lt;"
-                )
-
-                .replace(
-                    />/g,
-                    "&gt;"
-                )
-
-                .replace(
-                    /"/g,
-                    "&quot;"
-                )
-
-                .replace(
-                    /'/g,
-                    "&#039;"
-                );
-
-        }
-
-
-        /* =========================================================
-           LOAD ALL 3
-           ========================================================= */
-
-        document.addEventListener(
-            "DOMContentLoaded",
-            function () {
-
-                loadTopScorers(
-                    "daily",
-                    "dailyTopScorers"
-                );
-
-
-                loadTopScorers(
-                    "weekly",
-                    "weeklyTopScorers"
-                );
-
-
-                loadTopScorers(
-                    "monthly",
-                    "monthlyTopScorers"
-                );
-
-            }
-        );
-
-    </script>
-
 </body>
 
 </html>
