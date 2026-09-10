@@ -501,21 +501,216 @@ header {
     color: #2563eb;
 }
 
-nav {
+/* =====================================================
+   DESKTOP NAV
+===================================================== */
+
+header nav {
     display: flex;
+    align-items: center;
     gap: 22px;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: #374151;
     font-size: 15px;
     font-weight: 600;
 }
 
-nav a:hover {
+header nav a:hover {
     color: #2563eb;
 }
+
+/* =====================================================
+   HAMBURGER
+===================================================== */
+
+.menu-toggle {
+    display: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #002b6b;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    line-height: 1;
+    z-index: 10001;
+}
+
+.mobile-whatsapp {
+    display: none;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (min-width: 601px) and (max-width: 991px) {
+
+    header {
+        position: relative;
+        padding: 12px 30px;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        font-size: 30px;
+    }
+
+    /* Hide menu initially */
+    header nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        background: #ffffff;
+        flex-direction: column;
+        gap: 0;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        z-index: 10000;
+    }
+
+    /* Show menu when JS adds active */
+    header nav.active {
+        display: flex;
+    }
+
+    header nav a {
+        display: block;
+        width: 100%;
+        padding: 14px 20px;
+        text-align: center;
+        color: #222;
+        text-decoration: none;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    header nav a:hover {
+        background: #f5f7fb;
+        color: #003b8b;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    header {
+        position: relative;
+        padding: 10px 15px;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        font-size: 26px;
+    }
+
+    /* Hide menu initially */
+    header nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        padding: 8px 0;
+        background: #ffffff;
+        flex-direction: column;
+        gap: 0;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        z-index: 10000;
+    }
+
+    /* Show menu on click */
+    header nav.active {
+        display: flex;
+    }
+
+    header nav a {
+        display: block;
+        width: 100%;
+        padding: 13px 18px;
+        text-align: center;
+        color: #222;
+        font-size: 15px;
+        text-decoration: none;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    header nav a:hover {
+        background: #f5f7fb;
+        color: #003b8b;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+
+    header {
+        padding: 10px 12px;
+    }
+
+    .menu-toggle {
+        font-size: 24px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    header nav a {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+}
+
+
+/* =====================================================
+   DESKTOP
+===================================================== */
+
+@media (min-width: 992px) {
+
+    .menu-toggle {
+        display: none !important;
+    }
+
+    header nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    header nav a {
+        display: block;
+    }
+
+}
+
 
 
 /* =====================================================
