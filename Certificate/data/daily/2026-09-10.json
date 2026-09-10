@@ -1,0 +1,120 @@
+{
+    "quizType": "daily",
+    "quizId": "2026-09-03",
+    "title": "Daily Current Affairs Quiz",
+    "date": "03 September 2026",
+    "totalQuestions": 10,
+    "timeLimit": 10,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Which is the capital of India?",
+            "options": [
+                "Mumbai",
+                "New Delhi",
+                "Kolkata",
+                "Chennai"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "question": "Which planet is known as the Red Planet?",
+            "options": [
+                "Earth",
+                "Venus",
+                "Mars",
+                "Jupiter"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 3,
+            "question": "Who is known as the Father of the Indian Constitution?",
+            "options": [
+                "Mahatma Gandhi",
+                "Dr. B. R. Ambedkar",
+                "Jawaharlal Nehru",
+                "Sardar Patel"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "question": "Which is the largest state in India by area?",
+            "options": [
+                "Madhya Pradesh",
+                "Maharashtra",
+                "Rajasthan",
+                "Uttar Pradesh"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 5,
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Carbon Dioxide",
+                "Hydrogen"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "question": "What is the currency of Japan?",
+            "options": [
+                "Won",
+                "Yuan",
+                "Yen",
+                "Dollar"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 7,
+            "question": "Which river is known as the longest river in India?",
+            "options": [
+                "Yamuna",
+                "Ganga",
+                "Godavari",
+                "Narmada"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "question": "How many Fundamental Rights are currently guaranteed by the Constitution of India?",
+            "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "question": "Which organ of the human body is primarily responsible for pumping blood?",
+            "options": [
+                "Lungs",
+                "Brain",
+                "Heart",
+                "Kidneys"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 10,
+            "question": "Which is the highest civilian award of India?",
+            "options": [
+                "Padma Shri",
+                "Padma Bhushan",
+                "Padma Vibhushan",
+                "Bharat Ratna"
+            ],
+            "answer": 3
+        }
+    ]
+}
