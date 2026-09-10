@@ -1,34 +1,267 @@
-/* ================= TOP 5 SCORERS ================= */
+/* =====================================================
+   TOP 5 SCORERS
+===================================================== */
+/* ================= TOP 3 SCORERS ================= */
 
+.top-scorers {
+    position: relative;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 60px 25px 45px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* .top-scorers,.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.top-scorers .section-title {
+    margin-bottom: 35px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.top-scorers .section-title h2 {
+    margin: 0 0 8px;
+    font-size: 28px;
+}
+
+.top-scorers .section-title p {
+    margin: 0;
+    color: #6b7280;
+}
+
+/* Main Layout */
+.top-scorers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "first first"
+        "second third";
+    gap: 22px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Rank 1 */
+.scorer-card.first {
+    grid-area: first;
+    width: 280px;
+    margin: 0 auto;
+    border: 2px solid #f2c94c;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10);
+}
+
+/* Rank 2 */
+.scorer-card:nth-child(2) {
+    grid-area: second;
+}
+
+/* Rank 3 */
+.scorer-card:nth-child(3) {
+    grid-area: third;
+}
+
+/* Common Card */
+.scorer-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 22px 18px;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.scorer-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
+}
+
+/* Student Photo */
+.scorer-photo {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 12px;
+    border: 3px solid #e5e7eb;
+    background: #f3f4f6;
+}
+
+/* Rank 1 Photo */
+.scorer-card.first .scorer-photo {
+    width: 110px;
+    height: 110px;
+    border-color: #f2c94c;
+}
+
+/* Rank */
+.rank {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* Name */
+.scorer-card h3 {
+    font-size: 18px;
+    margin: 0 0 7px;
+    font-weight: 700;
+}
+
+/* Score */
+.scorer-score {
+    font-weight: 700;
+    color: #2563eb;
+}
+
+/* Percentage */
+.scorer-percent {
+    color: #6b7280;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+    .top-scorers {
+        width: calc(100% - 20px);
+        padding: 50px 15px 35px;
+    }
+
+    .top-scorers .section-title h2 {
+        font-size: 24px;
+    }
+
+    .top-scorers-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "first first"
+            "second third";
+        gap: 12px;
+    }
+
+    .scorer-card.first {
+        width: 250px;
+    }
+
+    .scorer-card {
+        padding: 20px 10px;
+    }
+
+    .scorer-card.first .scorer-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .scorer-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .rank {
+        font-size: 17px;
+    }
+
+    .scorer-card h3 {
+        font-size: 16px;
+    }
+
+    .scorer-score {
+        font-size: 14px;
+    }
+
+    .scorer-percent {
+        font-size: 13px;
+    }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 380px) {
+
+    .top-scorers {
+        width: calc(100% - 16px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .top-scorers-grid {
+        gap: 8px;
+    }
+
+    .scorer-card.first {
+        width: 230px;
+    }
+
+    .scorer-card {
+        padding: 17px 7px;
+    }
+
+    .scorer-photo {
+        width: 68px;
+        height: 68px;
+    }
+
+    .scorer-card.first .scorer-photo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .rank {
+        font-size: 15px;
+    }
+
+    .scorer-card h3 {
+        font-size: 14px;
+    }
+
+    .scorer-score {
+        font-size: 12px;
+    }
+
+    .scorer-percent {
+        font-size: 12px;
+    }
+}
+
+/* 
 .top-scorers {
     position: relative;
     max-width: 1000px;
     margin: 80px auto;
     padding: 70px 25px 45px;
     text-align: center;
-
     background: #ffffff;
-
-    /* Cracked section ke liye */
     border-radius: 0 0 20px 20px;
-
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
-}
+    overflow: visible;
+} */
 
-/* ================= CRACKED TOP ================= */
+/* =====================================================
+   CRACKED TOP
+===================================================== */
 
 .top-scorers::before {
     content: "";
     position: absolute;
-
     top: -35px;
     left: 0;
-
     width: 100%;
     height: 50px;
-
     background: #ffffff;
-
     clip-path: polygon(0% 55%,
             4% 38%,
             8% 52%,
@@ -57,24 +290,22 @@
             100% 30%,
             100% 100%,
             0% 100%);
-
     z-index: 1;
 }
 
-/* Crack Lines */
+/* =====================================================
+   CRACK LINES
+===================================================== */
 
 .top-scorers::after {
     content: "";
     position: absolute;
-
     top: -25px;
     left: 0;
-
     width: 100%;
     height: 40px;
 
     background:
-
         linear-gradient(125deg,
             transparent 48%,
             #d1d5db 49%,
@@ -100,96 +331,112 @@
             transparent 51%) 85% 0 / 50px 30px no-repeat;
 
     z-index: 2;
-
     pointer-events: none;
 }
 
-
-/* ================= TITLE ================= */
+/* =====================================================
+   TOP SCORERS TITLE
+===================================================== */
 
 .top-scorers .section-title {
     position: relative;
     z-index: 3;
+    text-align: center;
+    margin-bottom: 35px;
 }
 
-
-/* ================= TOP SCORERS GRID ================= */
+/* =====================================================
+   TOP SCORERS GRID
+===================================================== */
 
 .top-scorers-grid {
+    position: relative;
+    z-index: 3;
     display: grid;
     gap: 22px;
     max-width: 760px;
     margin: 0 auto;
 }
 
-.scorer-row {
-    display: grid;
-    gap: 22px;
-}
+/* =====================================================
+   RANK 1
+===================================================== */
 
 .scorer-row.first {
+    display: grid;
     grid-template-columns: 1fr;
     max-width: 280px;
+    width: 100%;
     margin: 0 auto;
 }
 
+/* =====================================================
+   RANK 2 + RANK 3
+===================================================== */
+
 .scorer-row.other {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    width: 100%;
 }
 
-
-/* ================= SCORER CARD ================= */
+/* =====================================================
+   SCORER CARD
+===================================================== */
 
 .scorer-card {
-    background: white;
-
+    background: #ffffff;
     border: 1px solid #e5e7eb;
-
     border-radius: 14px;
-
     padding: 22px 18px;
-
+    text-align: center;
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
 
     transition:
-        transform 0.25s,
-        box-shadow 0.25s;
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
 .scorer-card:hover {
     transform: translateY(-4px);
-
-    box-shadow:
-        0 10px 25px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.10);
 }
 
+/* =====================================================
+   RANK 1 SPECIAL CARD
+===================================================== */
 
-/* ================= STUDENT PHOTO ================= */
+.scorer-row.first .scorer-card {
+    border: 2px solid #f2c94c;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10);
+}
+
+/* =====================================================
+   STUDENT PHOTO
+===================================================== */
 
 .scorer-photo {
     width: 88px;
     height: 88px;
-
     border-radius: 50%;
-
     object-fit: cover;
-
     display: block;
-
     margin: 0 auto 12px;
-
     border: 3px solid #e5e7eb;
-
     background: #f3f4f6;
 }
 
-.first .scorer-photo {
+/* Rank 1 Photo */
+
+.scorer-row.first .scorer-photo {
     width: 110px;
     height: 110px;
 }
 
-
-/* ================= RANK ================= */
+/* =====================================================
+   RANK
+===================================================== */
 
 .rank {
     font-size: 22px;
@@ -197,15 +444,28 @@
     margin-bottom: 8px;
 }
 
+/* =====================================================
+   STUDENT NAME
+===================================================== */
+
 .scorer-card h3 {
     font-size: 18px;
-    margin-bottom: 7px;
+    margin: 0 0 7px;
+    font-weight: 700;
 }
+
+/* =====================================================
+   SCORE
+===================================================== */
 
 .scorer-score {
     font-weight: bold;
     color: #2563eb;
 }
+
+/* =====================================================
+   PERCENTAGE
+===================================================== */
 
 .scorer-percent {
     color: #6b7280;
@@ -214,21 +474,947 @@
 }
 
 
-/* ================= MOBILE ================= */
+/* =====================================================
+   HEADER
+===================================================== */
+
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 15px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #111827;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #2563eb;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #374151;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+
+/* =====================================================
+   HERO / ZERO
+===================================================== */
+
+.Zero {
+    background:
+        linear-gradient(135deg,
+            rgba(17, 24, 39, 0.80),
+            rgba(30, 58, 138, 0.80)),
+        url("../Assets/Certi-hero.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.Zero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.Zero h1 span {
+    color: #60a5fa;
+}
+
+.Zero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e5e7eb;
+}
+
+.Zero-buttons {
+    margin-top: 30px;
+}
+
+.Zero-btn {
+    display: inline-block;
+    padding: 13px 25px;
+    margin: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    background: white;
+    color: #111827;
+}
+
+.Zero-btn:hover {
+    opacity: 0.9;
+}
+
+
+/* =====================================================
+   QUIZ SECTION
+===================================================== */
+
+.quiz-section {
+    max-width: 1150px;
+    margin: 55px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #6b7280;
+}
+
+.quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+/* =====================================================
+   QUIZ CARD
+===================================================== */
+
+.quiz-card {
+    position: relative;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0, 43, 107, 0.82),
+            rgba(0, 43, 107, 0.82)),
+        url("../Assets/Daily.png");
+
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+
+    color: #ffffff;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+}
+
+
+/* =====================================================
+   QUIZ ICON
+===================================================== */
+
+.quiz-icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.90);
+    color: #002b6b;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   QUIZ TITLE
+===================================================== */
+
+.quiz-card h3 {
+    margin: 0 0 10px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* =====================================================
+   QUIZ DESCRIPTION
+===================================================== */
+
+.quiz-card p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 52px;
+    text-decoration: none;
+}
+
+
+/* =====================================================
+   QUIZ INFORMATION BOX
+===================================================== */
+
+.quiz-info {
+    margin: 20px 0;
+    padding: 12px;
+
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 7px;
+
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.quiz-info strong {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* =====================================================
+   QUIZ BUTTON
+===================================================== */
+
+.quiz-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 13px;
+
+    background: #ffffff;
+    color: #002b6b;
+
+    text-decoration: none !important;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.quiz-btn:hover {
+    background: #ffc107;
+    color: #002b6b;
+    text-decoration: none !important;
+    transform: translateY(-2px);
+}
+
+.quiz-card a,
+.quiz-card a:hover,
+.quiz-card a:focus,
+.quiz-card a:active {
+    text-decoration: none !important;
+}
+
+
+/* =====================================================
+   CERTIFICATE
+===================================================== */
+
+.certificate-section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 45px 25px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+}
+
+.certificate-section h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.certificate-section p {
+    color: #6b7280;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: auto;
+}
+
+.certificate-buttons {
+    margin-top: 25px;
+}
+
+.certificate-btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #111827;
+    color: white;
+}
+
+.certificate-btn:hover {
+    background: #2563eb;
+}
+
+
+/* =====================================================
+   FEATURES
+===================================================== */
+
+.features {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 10px 20px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 90px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+}
+
+.feature h3 {
+    font-size: 18px;
+    margin: 12px 0 8px;
+}
+
+.feature p {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   HAMBURGER
+===================================================== */
+
+.menu-toggle {
+    display: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #002b6b;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    line-height: 1;
+    z-index: 10001;
+}
+
+.mobile-whatsapp {
+    display: none;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (min-width: 601px) and (max-width: 991px) {
+
+    header {
+        position: relative;
+        padding: 12px 30px;
+    }
+
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        margin-left: auto;
+        font-size: 30px;
+    }
+
+    .navbar>.whatsapp-btn {
+        display: none !important;
+    }
+
+    .navbar .menu {
+        display: none !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+
+        background: #ffffff;
+
+        flex-direction: column;
+        gap: 0;
+
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+        z-index: 10000;
+    }
+
+    .navbar .menu.active {
+        display: flex !important;
+    }
+
+    .navbar .menu li {
+        width: 100%;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        width: 100%;
+        padding: 14px 20px;
+
+        color: #222;
+        text-decoration: none;
+
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .navbar .menu li a:hover {
+        background: #f5f7fb;
+        color: #003b8b;
+    }
+
+    .navbar .menu .mobile-whatsapp {
+        display: block !important;
+    }
+
+    .navbar .menu .mobile-whatsapp a {
+        color: #25D366;
+        font-weight: bold;
+    }
+
+    .quiz-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .Zero {
+        padding: 65px 25px;
+    }
+
+    .Zero h1 {
+        font-size: 38px;
+    }
+
+    .Zero p {
+        font-size: 17px;
+    }
+
+    /* TOP SCORERS TABLET */
+
+    .top-scorers {
+        width: calc(100% - 50px);
+        margin: 60px auto;
+        padding: 65px 25px 40px;
+    }
+
+    .top-scorers-grid {
+        max-width: 650px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
 
 @media (max-width: 600px) {
 
+    /* HEADER */
+
+    header {
+        position: relative;
+        padding: 10px 15px;
+    }
+
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        margin-left: auto;
+        font-size: 26px;
+    }
+
+    .navbar>.whatsapp-btn {
+        display: none !important;
+    }
+
+    .navbar .menu {
+        display: none !important;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+        margin: 0;
+        padding: 8px 0;
+
+        background: #ffffff;
+
+        flex-direction: column;
+        gap: 0;
+
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+        z-index: 10000;
+    }
+
+    .navbar .menu.active {
+        display: flex !important;
+    }
+
+    .navbar .menu li {
+        width: 100%;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        width: 100%;
+
+        padding: 13px 18px;
+
+        color: #222;
+        font-size: 15px;
+        text-decoration: none;
+
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .navbar .menu li a:hover {
+        background: #f5f7fb;
+        color: #003b8b;
+    }
+
+    .navbar .menu .mobile-whatsapp {
+        display: block !important;
+    }
+
+    .navbar .menu .mobile-whatsapp a {
+        color: #25D366;
+        font-weight: bold;
+    }
+
+
+    /* =================================================
+       HERO
+    ================================================= */
+
+    .Zero {
+        padding: 55px 18px;
+        background-position: center 30%;
+    }
+
+    .Zero h1 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .Zero p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* =================================================
+       QUIZ SECTION
+    ================================================= */
+
+    .quiz-section {
+        width: 100%;
+        margin: 40px auto;
+        padding: 0 15px;
+    }
+
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+
+    .quiz-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .quiz-card {
+        width: 100%;
+        padding: 25px 18px;
+        border-radius: 13px;
+        background-position: center 30%;
+    }
+
+    .quiz-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 27px;
+        margin-bottom: 16px;
+    }
+
+    .quiz-card h3 {
+        font-size: 21px;
+    }
+
+    .quiz-card p {
+        font-size: 14px;
+        line-height: 1.6;
+        min-height: auto;
+    }
+
+    .quiz-info {
+        margin: 18px 0;
+        padding: 11px;
+        font-size: 13px;
+    }
+
+    .quiz-btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+
+    /* =================================================
+       TOP SCORERS MOBILE
+    ================================================= */
+
     .top-scorers {
-        margin: 60px 10px;
+        width: calc(100% - 20px);
+        max-width: 1000px;
+
+        margin: 60px auto;
+
         padding: 60px 15px 35px;
+
+        border-radius: 0 0 18px 18px;
+    }
+
+    .top-scorers .section-title {
+        margin-bottom: 28px;
+    }
+
+    .top-scorers .section-title h2 {
+        font-size: 25px;
+    }
+
+    .top-scorers .section-title p {
+        font-size: 14px;
+    }
+
+    .top-scorers-grid {
+        width: 100%;
+        max-width: 100%;
+        gap: 18px;
+    }
+
+    /* Rank 1 */
+
+    .scorer-row.first {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    /* Rank 2 + Rank 3 */
+
+    .scorer-row.other {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .scorer-card {
+        width: 100%;
+        padding: 20px 10px;
+        border-radius: 12px;
+    }
+
+    .scorer-photo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .scorer-row.first .scorer-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .rank {
+        font-size: 17px;
+    }
+
+    .scorer-card h3 {
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    .scorer-score {
+        font-size: 13px;
+    }
+
+    .scorer-percent {
+        font-size: 13px;
+    }
+
+
+    /* =================================================
+       CERTIFICATE
+    ================================================= */
+
+    .certificate-section {
+        width: calc(100% - 30px);
+        margin: 45px auto;
+        padding: 35px 18px;
+    }
+
+    .certificate-section h2 {
+        font-size: 24px;
+    }
+
+    .certificate-section p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .certificate-btn {
+        display: block;
+        width: 100%;
+        max-width: 260px;
+        margin: 8px auto;
+    }
+
+
+    /* =================================================
+       FEATURES
+    ================================================= */
+
+    .features {
+        width: 100%;
+        margin: 45px auto;
+        padding: 0 15px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .feature {
+        padding: 22px 18px;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 380px) {
+
+    .navbar {
+        padding: 10px 12px;
+    }
+
+    .menu-toggle {
+        font-size: 24px;
+    }
+
+    .Zero {
+        padding: 45px 15px;
+    }
+
+    .Zero h1 {
+        font-size: 26px;
+    }
+
+    .Zero p {
+        font-size: 14px;
+    }
+
+    .quiz-section {
+        padding: 0 12px;
+    }
+
+    .section-title h2 {
+        font-size: 23px;
+    }
+
+    .quiz-card {
+        padding: 22px 15px;
+    }
+
+
+    /* TOP SCORERS */
+
+    .top-scorers {
+        width: calc(100% - 16px);
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .scorer-row.other {
-        grid-template-columns: 1fr;
+        gap: 8px;
     }
 
-    .scorer-row.first {
-        max-width: 100%;
+    .scorer-card {
+        padding: 17px 7px;
     }
 
+    .scorer-photo {
+        width: 68px;
+        height: 68px;
+    }
+
+    .scorer-row.first .scorer-photo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .rank {
+        font-size: 15px;
+    }
+
+    .scorer-card h3 {
+        font-size: 14px;
+    }
+
+    .scorer-score {
+        font-size: 12px;
+    }
+
+    .scorer-percent {
+        font-size: 12px;
+    }
+}
+
+
+/* =====================================================
+   DESKTOP
+===================================================== */
+
+@media (min-width: 992px) {
+
+    .menu-toggle {
+        display: none !important;
+    }
+
+    .navbar .menu {
+        display: flex !important;
+        position: static;
+        flex-direction: row !important;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .navbar>.whatsapp-btn {
+        display: block !important;
+    }
+
+    .navbar .menu li {
+        list-style: none;
+    }
+
+    .navbar .menu li a {
+        display: block;
+    }
+
+    header nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row !important;
+        width: auto;
+        box-shadow: none;
+    }
+
+    header nav a {
+        display: block !important;
+    }
 }
